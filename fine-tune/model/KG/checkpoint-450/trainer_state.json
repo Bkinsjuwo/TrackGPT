@@ -1,0 +1,3171 @@
+{
+  "best_metric": null,
+  "best_model_checkpoint": null,
+  "epoch": 2.0,
+  "eval_steps": 500,
+  "global_step": 450,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 0.0044444444444444444,
+      "grad_norm": 8.611528250789666,
+      "learning_rate": 2e-05,
+      "loss": 3.0,
+      "step": 1
+    },
+    {
+      "epoch": 0.008888888888888889,
+      "grad_norm": 13.06574553315626,
+      "learning_rate": 2e-05,
+      "loss": 3.2188,
+      "step": 2
+    },
+    {
+      "epoch": 0.013333333333333334,
+      "grad_norm": 10.641366095213428,
+      "learning_rate": 2e-05,
+      "loss": 3.5,
+      "step": 3
+    },
+    {
+      "epoch": 0.017777777777777778,
+      "grad_norm": 11.821976165375789,
+      "learning_rate": 2e-05,
+      "loss": 3.2969,
+      "step": 4
+    },
+    {
+      "epoch": 0.022222222222222223,
+      "grad_norm": 11.559056532525824,
+      "learning_rate": 2e-05,
+      "loss": 2.8438,
+      "step": 5
+    },
+    {
+      "epoch": 0.02666666666666667,
+      "grad_norm": 11.563527117021701,
+      "learning_rate": 2e-05,
+      "loss": 2.9375,
+      "step": 6
+    },
+    {
+      "epoch": 0.03111111111111111,
+      "grad_norm": 11.917175551911576,
+      "learning_rate": 2e-05,
+      "loss": 3.3125,
+      "step": 7
+    },
+    {
+      "epoch": 0.035555555555555556,
+      "grad_norm": 10.614106138263285,
+      "learning_rate": 2e-05,
+      "loss": 3.2812,
+      "step": 8
+    },
+    {
+      "epoch": 0.04,
+      "grad_norm": 9.570596723858214,
+      "learning_rate": 2e-05,
+      "loss": 3.5156,
+      "step": 9
+    },
+    {
+      "epoch": 0.044444444444444446,
+      "grad_norm": 13.687811819214046,
+      "learning_rate": 2e-05,
+      "loss": 3.3281,
+      "step": 10
+    },
+    {
+      "epoch": 0.04888888888888889,
+      "grad_norm": 14.919572095742605,
+      "learning_rate": 2e-05,
+      "loss": 3.0938,
+      "step": 11
+    },
+    {
+      "epoch": 0.05333333333333334,
+      "grad_norm": 13.404964539281817,
+      "learning_rate": 2e-05,
+      "loss": 3.3438,
+      "step": 12
+    },
+    {
+      "epoch": 0.057777777777777775,
+      "grad_norm": 13.62725813832615,
+      "learning_rate": 2e-05,
+      "loss": 3.0,
+      "step": 13
+    },
+    {
+      "epoch": 0.06222222222222222,
+      "grad_norm": 13.85617024929088,
+      "learning_rate": 2e-05,
+      "loss": 3.3438,
+      "step": 14
+    },
+    {
+      "epoch": 0.06666666666666667,
+      "grad_norm": 15.88445565416151,
+      "learning_rate": 2e-05,
+      "loss": 2.7188,
+      "step": 15
+    },
+    {
+      "epoch": 0.07111111111111111,
+      "grad_norm": 13.490897940983364,
+      "learning_rate": 2e-05,
+      "loss": 3.1094,
+      "step": 16
+    },
+    {
+      "epoch": 0.07555555555555556,
+      "grad_norm": 10.374512247581961,
+      "learning_rate": 2e-05,
+      "loss": 2.9688,
+      "step": 17
+    },
+    {
+      "epoch": 0.08,
+      "grad_norm": 11.218870635066049,
+      "learning_rate": 2e-05,
+      "loss": 3.1094,
+      "step": 18
+    },
+    {
+      "epoch": 0.08444444444444445,
+      "grad_norm": 24.778961338833785,
+      "learning_rate": 2e-05,
+      "loss": 2.9844,
+      "step": 19
+    },
+    {
+      "epoch": 0.08888888888888889,
+      "grad_norm": 18.57163866374369,
+      "learning_rate": 2e-05,
+      "loss": 2.875,
+      "step": 20
+    },
+    {
+      "epoch": 0.09333333333333334,
+      "grad_norm": 10.170628621264235,
+      "learning_rate": 2e-05,
+      "loss": 3.2031,
+      "step": 21
+    },
+    {
+      "epoch": 0.09777777777777778,
+      "grad_norm": 12.378084347201858,
+      "learning_rate": 2e-05,
+      "loss": 2.4219,
+      "step": 22
+    },
+    {
+      "epoch": 0.10222222222222223,
+      "grad_norm": 17.424958880123754,
+      "learning_rate": 2e-05,
+      "loss": 2.8281,
+      "step": 23
+    },
+    {
+      "epoch": 0.10666666666666667,
+      "grad_norm": 15.263963029277997,
+      "learning_rate": 2e-05,
+      "loss": 2.5469,
+      "step": 24
+    },
+    {
+      "epoch": 0.1111111111111111,
+      "grad_norm": 11.167134508978325,
+      "learning_rate": 2e-05,
+      "loss": 2.5156,
+      "step": 25
+    },
+    {
+      "epoch": 0.11555555555555555,
+      "grad_norm": 10.434422190999559,
+      "learning_rate": 2e-05,
+      "loss": 2.8438,
+      "step": 26
+    },
+    {
+      "epoch": 0.12,
+      "grad_norm": 8.869413855889475,
+      "learning_rate": 2e-05,
+      "loss": 2.5469,
+      "step": 27
+    },
+    {
+      "epoch": 0.12444444444444444,
+      "grad_norm": 7.475431520946244,
+      "learning_rate": 2e-05,
+      "loss": 2.5625,
+      "step": 28
+    },
+    {
+      "epoch": 0.1288888888888889,
+      "grad_norm": 6.335962531609045,
+      "learning_rate": 2e-05,
+      "loss": 2.4688,
+      "step": 29
+    },
+    {
+      "epoch": 0.13333333333333333,
+      "grad_norm": 12.720518885646511,
+      "learning_rate": 2e-05,
+      "loss": 2.625,
+      "step": 30
+    },
+    {
+      "epoch": 0.13777777777777778,
+      "grad_norm": 6.883180539664156,
+      "learning_rate": 2e-05,
+      "loss": 2.7188,
+      "step": 31
+    },
+    {
+      "epoch": 0.14222222222222222,
+      "grad_norm": 7.281686197643426,
+      "learning_rate": 2e-05,
+      "loss": 2.6094,
+      "step": 32
+    },
+    {
+      "epoch": 0.14666666666666667,
+      "grad_norm": 6.020980089218197,
+      "learning_rate": 2e-05,
+      "loss": 2.4844,
+      "step": 33
+    },
+    {
+      "epoch": 0.1511111111111111,
+      "grad_norm": 7.262736570568793,
+      "learning_rate": 2e-05,
+      "loss": 2.7344,
+      "step": 34
+    },
+    {
+      "epoch": 0.15555555555555556,
+      "grad_norm": 5.848441646131116,
+      "learning_rate": 2e-05,
+      "loss": 2.1562,
+      "step": 35
+    },
+    {
+      "epoch": 0.16,
+      "grad_norm": 6.582389479554921,
+      "learning_rate": 2e-05,
+      "loss": 2.9688,
+      "step": 36
+    },
+    {
+      "epoch": 0.16444444444444445,
+      "grad_norm": 6.701886649718396,
+      "learning_rate": 2e-05,
+      "loss": 2.5625,
+      "step": 37
+    },
+    {
+      "epoch": 0.1688888888888889,
+      "grad_norm": 5.968338228828043,
+      "learning_rate": 2e-05,
+      "loss": 2.3906,
+      "step": 38
+    },
+    {
+      "epoch": 0.17333333333333334,
+      "grad_norm": 6.47220010119004,
+      "learning_rate": 2e-05,
+      "loss": 2.4844,
+      "step": 39
+    },
+    {
+      "epoch": 0.17777777777777778,
+      "grad_norm": 6.251372436679229,
+      "learning_rate": 2e-05,
+      "loss": 2.5781,
+      "step": 40
+    },
+    {
+      "epoch": 0.18222222222222223,
+      "grad_norm": 6.575948898447535,
+      "learning_rate": 2e-05,
+      "loss": 2.75,
+      "step": 41
+    },
+    {
+      "epoch": 0.18666666666666668,
+      "grad_norm": 4.948287620191427,
+      "learning_rate": 2e-05,
+      "loss": 2.2656,
+      "step": 42
+    },
+    {
+      "epoch": 0.19111111111111112,
+      "grad_norm": 6.121306872485943,
+      "learning_rate": 2e-05,
+      "loss": 2.2969,
+      "step": 43
+    },
+    {
+      "epoch": 0.19555555555555557,
+      "grad_norm": 7.8874155551718905,
+      "learning_rate": 2e-05,
+      "loss": 2.4844,
+      "step": 44
+    },
+    {
+      "epoch": 0.2,
+      "grad_norm": 5.994848639768554,
+      "learning_rate": 2e-05,
+      "loss": 2.5625,
+      "step": 45
+    },
+    {
+      "epoch": 0.20444444444444446,
+      "grad_norm": 7.6633309256466715,
+      "learning_rate": 2e-05,
+      "loss": 2.8281,
+      "step": 46
+    },
+    {
+      "epoch": 0.2088888888888889,
+      "grad_norm": 6.093423270409217,
+      "learning_rate": 2e-05,
+      "loss": 2.3125,
+      "step": 47
+    },
+    {
+      "epoch": 0.21333333333333335,
+      "grad_norm": 7.068635541859875,
+      "learning_rate": 2e-05,
+      "loss": 2.7031,
+      "step": 48
+    },
+    {
+      "epoch": 0.21777777777777776,
+      "grad_norm": 6.249044688875039,
+      "learning_rate": 2e-05,
+      "loss": 2.5938,
+      "step": 49
+    },
+    {
+      "epoch": 0.2222222222222222,
+      "grad_norm": 6.047660164673766,
+      "learning_rate": 2e-05,
+      "loss": 2.4219,
+      "step": 50
+    },
+    {
+      "epoch": 0.22666666666666666,
+      "grad_norm": 5.655496879461155,
+      "learning_rate": 2e-05,
+      "loss": 1.9297,
+      "step": 51
+    },
+    {
+      "epoch": 0.2311111111111111,
+      "grad_norm": 6.486873903908836,
+      "learning_rate": 2e-05,
+      "loss": 2.5,
+      "step": 52
+    },
+    {
+      "epoch": 0.23555555555555555,
+      "grad_norm": 5.798224629096826,
+      "learning_rate": 2e-05,
+      "loss": 2.2812,
+      "step": 53
+    },
+    {
+      "epoch": 0.24,
+      "grad_norm": 5.9325251539303885,
+      "learning_rate": 2e-05,
+      "loss": 2.5625,
+      "step": 54
+    },
+    {
+      "epoch": 0.24444444444444444,
+      "grad_norm": 6.144891834518348,
+      "learning_rate": 2e-05,
+      "loss": 2.5469,
+      "step": 55
+    },
+    {
+      "epoch": 0.24888888888888888,
+      "grad_norm": 6.517255255724173,
+      "learning_rate": 2e-05,
+      "loss": 2.6719,
+      "step": 56
+    },
+    {
+      "epoch": 0.25333333333333335,
+      "grad_norm": 6.815920034852556,
+      "learning_rate": 2e-05,
+      "loss": 2.5781,
+      "step": 57
+    },
+    {
+      "epoch": 0.2577777777777778,
+      "grad_norm": 5.4948339436866105,
+      "learning_rate": 2e-05,
+      "loss": 2.3125,
+      "step": 58
+    },
+    {
+      "epoch": 0.26222222222222225,
+      "grad_norm": 5.707776205584122,
+      "learning_rate": 2e-05,
+      "loss": 2.3594,
+      "step": 59
+    },
+    {
+      "epoch": 0.26666666666666666,
+      "grad_norm": 5.856030337194094,
+      "learning_rate": 2e-05,
+      "loss": 2.3125,
+      "step": 60
+    },
+    {
+      "epoch": 0.27111111111111114,
+      "grad_norm": 6.503393474741699,
+      "learning_rate": 2e-05,
+      "loss": 2.1406,
+      "step": 61
+    },
+    {
+      "epoch": 0.27555555555555555,
+      "grad_norm": 6.659777140254208,
+      "learning_rate": 2e-05,
+      "loss": 2.4219,
+      "step": 62
+    },
+    {
+      "epoch": 0.28,
+      "grad_norm": 6.746563280635691,
+      "learning_rate": 2e-05,
+      "loss": 2.6094,
+      "step": 63
+    },
+    {
+      "epoch": 0.28444444444444444,
+      "grad_norm": 6.023217906146388,
+      "learning_rate": 2e-05,
+      "loss": 2.0938,
+      "step": 64
+    },
+    {
+      "epoch": 0.28888888888888886,
+      "grad_norm": 6.905828705936602,
+      "learning_rate": 2e-05,
+      "loss": 2.4531,
+      "step": 65
+    },
+    {
+      "epoch": 0.29333333333333333,
+      "grad_norm": 6.4110828204875485,
+      "learning_rate": 2e-05,
+      "loss": 2.0625,
+      "step": 66
+    },
+    {
+      "epoch": 0.29777777777777775,
+      "grad_norm": 6.5793676768408,
+      "learning_rate": 2e-05,
+      "loss": 2.2656,
+      "step": 67
+    },
+    {
+      "epoch": 0.3022222222222222,
+      "grad_norm": 7.9051281153431905,
+      "learning_rate": 2e-05,
+      "loss": 2.3281,
+      "step": 68
+    },
+    {
+      "epoch": 0.30666666666666664,
+      "grad_norm": 7.322073954130358,
+      "learning_rate": 2e-05,
+      "loss": 2.4531,
+      "step": 69
+    },
+    {
+      "epoch": 0.3111111111111111,
+      "grad_norm": 7.8484777886110475,
+      "learning_rate": 2e-05,
+      "loss": 2.5625,
+      "step": 70
+    },
+    {
+      "epoch": 0.31555555555555553,
+      "grad_norm": 6.797324006152804,
+      "learning_rate": 2e-05,
+      "loss": 2.0625,
+      "step": 71
+    },
+    {
+      "epoch": 0.32,
+      "grad_norm": 7.287959602886903,
+      "learning_rate": 2e-05,
+      "loss": 2.6719,
+      "step": 72
+    },
+    {
+      "epoch": 0.3244444444444444,
+      "grad_norm": 6.245665811937765,
+      "learning_rate": 2e-05,
+      "loss": 2.2031,
+      "step": 73
+    },
+    {
+      "epoch": 0.3288888888888889,
+      "grad_norm": 7.237493187190934,
+      "learning_rate": 2e-05,
+      "loss": 2.2656,
+      "step": 74
+    },
+    {
+      "epoch": 0.3333333333333333,
+      "grad_norm": 6.264141148579724,
+      "learning_rate": 2e-05,
+      "loss": 2.5,
+      "step": 75
+    },
+    {
+      "epoch": 0.3377777777777778,
+      "grad_norm": 5.92501388953416,
+      "learning_rate": 2e-05,
+      "loss": 2.0469,
+      "step": 76
+    },
+    {
+      "epoch": 0.3422222222222222,
+      "grad_norm": 9.147549745166184,
+      "learning_rate": 2e-05,
+      "loss": 2.6719,
+      "step": 77
+    },
+    {
+      "epoch": 0.3466666666666667,
+      "grad_norm": 7.069535145010612,
+      "learning_rate": 2e-05,
+      "loss": 2.3594,
+      "step": 78
+    },
+    {
+      "epoch": 0.3511111111111111,
+      "grad_norm": 6.702657844294656,
+      "learning_rate": 2e-05,
+      "loss": 2.1719,
+      "step": 79
+    },
+    {
+      "epoch": 0.35555555555555557,
+      "grad_norm": 6.523296748462616,
+      "learning_rate": 2e-05,
+      "loss": 2.2031,
+      "step": 80
+    },
+    {
+      "epoch": 0.36,
+      "grad_norm": 7.614409450659719,
+      "learning_rate": 2e-05,
+      "loss": 2.6719,
+      "step": 81
+    },
+    {
+      "epoch": 0.36444444444444446,
+      "grad_norm": 7.232102928294712,
+      "learning_rate": 2e-05,
+      "loss": 2.7031,
+      "step": 82
+    },
+    {
+      "epoch": 0.3688888888888889,
+      "grad_norm": 6.844412862821228,
+      "learning_rate": 2e-05,
+      "loss": 2.1562,
+      "step": 83
+    },
+    {
+      "epoch": 0.37333333333333335,
+      "grad_norm": 7.540711195342905,
+      "learning_rate": 2e-05,
+      "loss": 2.0312,
+      "step": 84
+    },
+    {
+      "epoch": 0.37777777777777777,
+      "grad_norm": 6.650567862957086,
+      "learning_rate": 2e-05,
+      "loss": 2.1562,
+      "step": 85
+    },
+    {
+      "epoch": 0.38222222222222224,
+      "grad_norm": 7.863520542387943,
+      "learning_rate": 2e-05,
+      "loss": 2.625,
+      "step": 86
+    },
+    {
+      "epoch": 0.38666666666666666,
+      "grad_norm": 8.536935491371985,
+      "learning_rate": 2e-05,
+      "loss": 2.3281,
+      "step": 87
+    },
+    {
+      "epoch": 0.39111111111111113,
+      "grad_norm": 6.638783066181689,
+      "learning_rate": 2e-05,
+      "loss": 2.1719,
+      "step": 88
+    },
+    {
+      "epoch": 0.39555555555555555,
+      "grad_norm": 7.2260876728171715,
+      "learning_rate": 2e-05,
+      "loss": 2.25,
+      "step": 89
+    },
+    {
+      "epoch": 0.4,
+      "grad_norm": 7.556150872490093,
+      "learning_rate": 2e-05,
+      "loss": 2.0,
+      "step": 90
+    },
+    {
+      "epoch": 0.40444444444444444,
+      "grad_norm": 6.960144402713634,
+      "learning_rate": 2e-05,
+      "loss": 2.4219,
+      "step": 91
+    },
+    {
+      "epoch": 0.4088888888888889,
+      "grad_norm": 6.232671921605324,
+      "learning_rate": 2e-05,
+      "loss": 1.7266,
+      "step": 92
+    },
+    {
+      "epoch": 0.41333333333333333,
+      "grad_norm": 6.669180756519856,
+      "learning_rate": 2e-05,
+      "loss": 2.2344,
+      "step": 93
+    },
+    {
+      "epoch": 0.4177777777777778,
+      "grad_norm": 8.116228885493106,
+      "learning_rate": 2e-05,
+      "loss": 2.125,
+      "step": 94
+    },
+    {
+      "epoch": 0.4222222222222222,
+      "grad_norm": 6.853049590212153,
+      "learning_rate": 2e-05,
+      "loss": 2.4062,
+      "step": 95
+    },
+    {
+      "epoch": 0.4266666666666667,
+      "grad_norm": 7.496209888258276,
+      "learning_rate": 2e-05,
+      "loss": 2.2656,
+      "step": 96
+    },
+    {
+      "epoch": 0.4311111111111111,
+      "grad_norm": 6.968441046418048,
+      "learning_rate": 2e-05,
+      "loss": 2.2344,
+      "step": 97
+    },
+    {
+      "epoch": 0.43555555555555553,
+      "grad_norm": 6.438633621647412,
+      "learning_rate": 2e-05,
+      "loss": 1.9453,
+      "step": 98
+    },
+    {
+      "epoch": 0.44,
+      "grad_norm": 8.069431598418808,
+      "learning_rate": 2e-05,
+      "loss": 2.4062,
+      "step": 99
+    },
+    {
+      "epoch": 0.4444444444444444,
+      "grad_norm": 6.993867098258202,
+      "learning_rate": 2e-05,
+      "loss": 1.875,
+      "step": 100
+    },
+    {
+      "epoch": 0.4488888888888889,
+      "grad_norm": 7.583578403434393,
+      "learning_rate": 2e-05,
+      "loss": 2.3125,
+      "step": 101
+    },
+    {
+      "epoch": 0.4533333333333333,
+      "grad_norm": 8.029259205087694,
+      "learning_rate": 2e-05,
+      "loss": 2.3906,
+      "step": 102
+    },
+    {
+      "epoch": 0.4577777777777778,
+      "grad_norm": 7.1897939467792105,
+      "learning_rate": 2e-05,
+      "loss": 2.3125,
+      "step": 103
+    },
+    {
+      "epoch": 0.4622222222222222,
+      "grad_norm": 8.71203663735599,
+      "learning_rate": 2e-05,
+      "loss": 2.5469,
+      "step": 104
+    },
+    {
+      "epoch": 0.4666666666666667,
+      "grad_norm": 8.11216971760293,
+      "learning_rate": 2e-05,
+      "loss": 2.3125,
+      "step": 105
+    },
+    {
+      "epoch": 0.4711111111111111,
+      "grad_norm": 7.385666906183074,
+      "learning_rate": 2e-05,
+      "loss": 2.1406,
+      "step": 106
+    },
+    {
+      "epoch": 0.47555555555555556,
+      "grad_norm": 6.485373563627983,
+      "learning_rate": 2e-05,
+      "loss": 1.8984,
+      "step": 107
+    },
+    {
+      "epoch": 0.48,
+      "grad_norm": 7.12040634215829,
+      "learning_rate": 2e-05,
+      "loss": 2.0156,
+      "step": 108
+    },
+    {
+      "epoch": 0.48444444444444446,
+      "grad_norm": 8.775035433336082,
+      "learning_rate": 2e-05,
+      "loss": 2.4688,
+      "step": 109
+    },
+    {
+      "epoch": 0.4888888888888889,
+      "grad_norm": 7.311129320826394,
+      "learning_rate": 2e-05,
+      "loss": 2.4062,
+      "step": 110
+    },
+    {
+      "epoch": 0.49333333333333335,
+      "grad_norm": 10.75299194604045,
+      "learning_rate": 2e-05,
+      "loss": 2.25,
+      "step": 111
+    },
+    {
+      "epoch": 0.49777777777777776,
+      "grad_norm": 7.8422337774162205,
+      "learning_rate": 2e-05,
+      "loss": 2.0625,
+      "step": 112
+    },
+    {
+      "epoch": 0.5022222222222222,
+      "grad_norm": 8.734798522383233,
+      "learning_rate": 2e-05,
+      "loss": 2.3125,
+      "step": 113
+    },
+    {
+      "epoch": 0.5066666666666667,
+      "grad_norm": 7.353805045246047,
+      "learning_rate": 2e-05,
+      "loss": 2.2656,
+      "step": 114
+    },
+    {
+      "epoch": 0.5111111111111111,
+      "grad_norm": 8.26285792293284,
+      "learning_rate": 2e-05,
+      "loss": 2.125,
+      "step": 115
+    },
+    {
+      "epoch": 0.5155555555555555,
+      "grad_norm": 8.168809363328885,
+      "learning_rate": 2e-05,
+      "loss": 2.2344,
+      "step": 116
+    },
+    {
+      "epoch": 0.52,
+      "grad_norm": 8.773945456016827,
+      "learning_rate": 2e-05,
+      "loss": 2.3906,
+      "step": 117
+    },
+    {
+      "epoch": 0.5244444444444445,
+      "grad_norm": 7.697452094016433,
+      "learning_rate": 2e-05,
+      "loss": 2.2188,
+      "step": 118
+    },
+    {
+      "epoch": 0.5288888888888889,
+      "grad_norm": 7.876835275626992,
+      "learning_rate": 2e-05,
+      "loss": 2.1875,
+      "step": 119
+    },
+    {
+      "epoch": 0.5333333333333333,
+      "grad_norm": 8.025951126742493,
+      "learning_rate": 2e-05,
+      "loss": 2.0469,
+      "step": 120
+    },
+    {
+      "epoch": 0.5377777777777778,
+      "grad_norm": 8.12666009261103,
+      "learning_rate": 2e-05,
+      "loss": 2.1719,
+      "step": 121
+    },
+    {
+      "epoch": 0.5422222222222223,
+      "grad_norm": 7.605492813512638,
+      "learning_rate": 2e-05,
+      "loss": 2.0938,
+      "step": 122
+    },
+    {
+      "epoch": 0.5466666666666666,
+      "grad_norm": 6.953841034456379,
+      "learning_rate": 2e-05,
+      "loss": 2.2344,
+      "step": 123
+    },
+    {
+      "epoch": 0.5511111111111111,
+      "grad_norm": 8.609002190515996,
+      "learning_rate": 2e-05,
+      "loss": 2.3125,
+      "step": 124
+    },
+    {
+      "epoch": 0.5555555555555556,
+      "grad_norm": 9.514767653112658,
+      "learning_rate": 2e-05,
+      "loss": 2.0938,
+      "step": 125
+    },
+    {
+      "epoch": 0.56,
+      "grad_norm": 7.3075451842516745,
+      "learning_rate": 2e-05,
+      "loss": 1.8125,
+      "step": 126
+    },
+    {
+      "epoch": 0.5644444444444444,
+      "grad_norm": 7.912113411113423,
+      "learning_rate": 2e-05,
+      "loss": 2.1875,
+      "step": 127
+    },
+    {
+      "epoch": 0.5688888888888889,
+      "grad_norm": 7.335735143077216,
+      "learning_rate": 2e-05,
+      "loss": 2.3125,
+      "step": 128
+    },
+    {
+      "epoch": 0.5733333333333334,
+      "grad_norm": 6.977735115972988,
+      "learning_rate": 2e-05,
+      "loss": 2.2031,
+      "step": 129
+    },
+    {
+      "epoch": 0.5777777777777777,
+      "grad_norm": 7.29538185233874,
+      "learning_rate": 2e-05,
+      "loss": 2.3125,
+      "step": 130
+    },
+    {
+      "epoch": 0.5822222222222222,
+      "grad_norm": 8.03504997606733,
+      "learning_rate": 2e-05,
+      "loss": 2.1562,
+      "step": 131
+    },
+    {
+      "epoch": 0.5866666666666667,
+      "grad_norm": 7.201555624686503,
+      "learning_rate": 2e-05,
+      "loss": 2.125,
+      "step": 132
+    },
+    {
+      "epoch": 0.5911111111111111,
+      "grad_norm": 8.156090800216205,
+      "learning_rate": 2e-05,
+      "loss": 2.2969,
+      "step": 133
+    },
+    {
+      "epoch": 0.5955555555555555,
+      "grad_norm": 7.865047478399352,
+      "learning_rate": 2e-05,
+      "loss": 2.1094,
+      "step": 134
+    },
+    {
+      "epoch": 0.6,
+      "grad_norm": 7.451358203044752,
+      "learning_rate": 2e-05,
+      "loss": 2.1094,
+      "step": 135
+    },
+    {
+      "epoch": 0.6044444444444445,
+      "grad_norm": 8.291122201261008,
+      "learning_rate": 2e-05,
+      "loss": 1.9453,
+      "step": 136
+    },
+    {
+      "epoch": 0.6088888888888889,
+      "grad_norm": 9.978182293495188,
+      "learning_rate": 2e-05,
+      "loss": 2.2969,
+      "step": 137
+    },
+    {
+      "epoch": 0.6133333333333333,
+      "grad_norm": 9.826208745495581,
+      "learning_rate": 2e-05,
+      "loss": 2.4219,
+      "step": 138
+    },
+    {
+      "epoch": 0.6177777777777778,
+      "grad_norm": 8.68747947111661,
+      "learning_rate": 2e-05,
+      "loss": 2.0938,
+      "step": 139
+    },
+    {
+      "epoch": 0.6222222222222222,
+      "grad_norm": 7.503756644106962,
+      "learning_rate": 2e-05,
+      "loss": 2.0,
+      "step": 140
+    },
+    {
+      "epoch": 0.6266666666666667,
+      "grad_norm": 8.673221973939533,
+      "learning_rate": 2e-05,
+      "loss": 2.3438,
+      "step": 141
+    },
+    {
+      "epoch": 0.6311111111111111,
+      "grad_norm": 10.543711365031134,
+      "learning_rate": 2e-05,
+      "loss": 2.4219,
+      "step": 142
+    },
+    {
+      "epoch": 0.6355555555555555,
+      "grad_norm": 10.927554742521588,
+      "learning_rate": 2e-05,
+      "loss": 2.3125,
+      "step": 143
+    },
+    {
+      "epoch": 0.64,
+      "grad_norm": 7.711557701922112,
+      "learning_rate": 2e-05,
+      "loss": 2.0469,
+      "step": 144
+    },
+    {
+      "epoch": 0.6444444444444445,
+      "grad_norm": 8.01445120045496,
+      "learning_rate": 2e-05,
+      "loss": 2.0625,
+      "step": 145
+    },
+    {
+      "epoch": 0.6488888888888888,
+      "grad_norm": 8.602598624612387,
+      "learning_rate": 2e-05,
+      "loss": 2.2188,
+      "step": 146
+    },
+    {
+      "epoch": 0.6533333333333333,
+      "grad_norm": 9.02286904379206,
+      "learning_rate": 2e-05,
+      "loss": 2.7656,
+      "step": 147
+    },
+    {
+      "epoch": 0.6577777777777778,
+      "grad_norm": 7.906025602966618,
+      "learning_rate": 2e-05,
+      "loss": 2.1406,
+      "step": 148
+    },
+    {
+      "epoch": 0.6622222222222223,
+      "grad_norm": 9.003717818557789,
+      "learning_rate": 2e-05,
+      "loss": 2.3281,
+      "step": 149
+    },
+    {
+      "epoch": 0.6666666666666666,
+      "grad_norm": 7.8914716237760745,
+      "learning_rate": 2e-05,
+      "loss": 2.4844,
+      "step": 150
+    },
+    {
+      "epoch": 0.6711111111111111,
+      "grad_norm": 8.23136952506181,
+      "learning_rate": 2e-05,
+      "loss": 2.4375,
+      "step": 151
+    },
+    {
+      "epoch": 0.6755555555555556,
+      "grad_norm": 7.507494835750246,
+      "learning_rate": 2e-05,
+      "loss": 1.875,
+      "step": 152
+    },
+    {
+      "epoch": 0.68,
+      "grad_norm": 8.468589851970755,
+      "learning_rate": 2e-05,
+      "loss": 2.2344,
+      "step": 153
+    },
+    {
+      "epoch": 0.6844444444444444,
+      "grad_norm": 9.395393929703891,
+      "learning_rate": 2e-05,
+      "loss": 1.7891,
+      "step": 154
+    },
+    {
+      "epoch": 0.6888888888888889,
+      "grad_norm": 9.808768117850938,
+      "learning_rate": 2e-05,
+      "loss": 1.5391,
+      "step": 155
+    },
+    {
+      "epoch": 0.6933333333333334,
+      "grad_norm": 8.310792695333202,
+      "learning_rate": 2e-05,
+      "loss": 2.1094,
+      "step": 156
+    },
+    {
+      "epoch": 0.6977777777777778,
+      "grad_norm": 8.425080678391334,
+      "learning_rate": 2e-05,
+      "loss": 2.1719,
+      "step": 157
+    },
+    {
+      "epoch": 0.7022222222222222,
+      "grad_norm": 8.030619579584114,
+      "learning_rate": 2e-05,
+      "loss": 2.0625,
+      "step": 158
+    },
+    {
+      "epoch": 0.7066666666666667,
+      "grad_norm": 8.370346054294089,
+      "learning_rate": 2e-05,
+      "loss": 2.2656,
+      "step": 159
+    },
+    {
+      "epoch": 0.7111111111111111,
+      "grad_norm": 8.685871094735417,
+      "learning_rate": 2e-05,
+      "loss": 2.1562,
+      "step": 160
+    },
+    {
+      "epoch": 0.7155555555555555,
+      "grad_norm": 9.194236621722407,
+      "learning_rate": 2e-05,
+      "loss": 2.1406,
+      "step": 161
+    },
+    {
+      "epoch": 0.72,
+      "grad_norm": 7.77303476209895,
+      "learning_rate": 2e-05,
+      "loss": 1.8828,
+      "step": 162
+    },
+    {
+      "epoch": 0.7244444444444444,
+      "grad_norm": 7.657524965698309,
+      "learning_rate": 2e-05,
+      "loss": 2.0625,
+      "step": 163
+    },
+    {
+      "epoch": 0.7288888888888889,
+      "grad_norm": 9.140392017199538,
+      "learning_rate": 2e-05,
+      "loss": 2.3438,
+      "step": 164
+    },
+    {
+      "epoch": 0.7333333333333333,
+      "grad_norm": 10.385050378985023,
+      "learning_rate": 2e-05,
+      "loss": 2.25,
+      "step": 165
+    },
+    {
+      "epoch": 0.7377777777777778,
+      "grad_norm": 10.968201973748563,
+      "learning_rate": 2e-05,
+      "loss": 2.4375,
+      "step": 166
+    },
+    {
+      "epoch": 0.7422222222222222,
+      "grad_norm": 8.398845883858618,
+      "learning_rate": 2e-05,
+      "loss": 2.0,
+      "step": 167
+    },
+    {
+      "epoch": 0.7466666666666667,
+      "grad_norm": 8.269161436282578,
+      "learning_rate": 2e-05,
+      "loss": 2.0312,
+      "step": 168
+    },
+    {
+      "epoch": 0.7511111111111111,
+      "grad_norm": 10.36029957084324,
+      "learning_rate": 2e-05,
+      "loss": 2.3594,
+      "step": 169
+    },
+    {
+      "epoch": 0.7555555555555555,
+      "grad_norm": 9.88591539304484,
+      "learning_rate": 2e-05,
+      "loss": 2.1094,
+      "step": 170
+    },
+    {
+      "epoch": 0.76,
+      "grad_norm": 9.052257008615628,
+      "learning_rate": 2e-05,
+      "loss": 2.0312,
+      "step": 171
+    },
+    {
+      "epoch": 0.7644444444444445,
+      "grad_norm": 7.3910928702105485,
+      "learning_rate": 2e-05,
+      "loss": 2.1875,
+      "step": 172
+    },
+    {
+      "epoch": 0.7688888888888888,
+      "grad_norm": 8.523659137025064,
+      "learning_rate": 2e-05,
+      "loss": 2.2812,
+      "step": 173
+    },
+    {
+      "epoch": 0.7733333333333333,
+      "grad_norm": 7.710500907427924,
+      "learning_rate": 2e-05,
+      "loss": 2.1875,
+      "step": 174
+    },
+    {
+      "epoch": 0.7777777777777778,
+      "grad_norm": 8.343592414004707,
+      "learning_rate": 2e-05,
+      "loss": 2.2344,
+      "step": 175
+    },
+    {
+      "epoch": 0.7822222222222223,
+      "grad_norm": 8.150234914775885,
+      "learning_rate": 2e-05,
+      "loss": 2.0625,
+      "step": 176
+    },
+    {
+      "epoch": 0.7866666666666666,
+      "grad_norm": 8.144141628351951,
+      "learning_rate": 2e-05,
+      "loss": 2.1406,
+      "step": 177
+    },
+    {
+      "epoch": 0.7911111111111111,
+      "grad_norm": 9.325470786823015,
+      "learning_rate": 2e-05,
+      "loss": 1.8438,
+      "step": 178
+    },
+    {
+      "epoch": 0.7955555555555556,
+      "grad_norm": 8.775668795669374,
+      "learning_rate": 2e-05,
+      "loss": 2.0781,
+      "step": 179
+    },
+    {
+      "epoch": 0.8,
+      "grad_norm": 7.20752425432803,
+      "learning_rate": 2e-05,
+      "loss": 1.9531,
+      "step": 180
+    },
+    {
+      "epoch": 0.8044444444444444,
+      "grad_norm": 8.498262310155928,
+      "learning_rate": 2e-05,
+      "loss": 2.0469,
+      "step": 181
+    },
+    {
+      "epoch": 0.8088888888888889,
+      "grad_norm": 7.386850455382626,
+      "learning_rate": 2e-05,
+      "loss": 2.2031,
+      "step": 182
+    },
+    {
+      "epoch": 0.8133333333333334,
+      "grad_norm": 9.929733358677867,
+      "learning_rate": 2e-05,
+      "loss": 2.1562,
+      "step": 183
+    },
+    {
+      "epoch": 0.8177777777777778,
+      "grad_norm": 7.560961518941162,
+      "learning_rate": 2e-05,
+      "loss": 2.0625,
+      "step": 184
+    },
+    {
+      "epoch": 0.8222222222222222,
+      "grad_norm": 9.087008160345897,
+      "learning_rate": 2e-05,
+      "loss": 2.625,
+      "step": 185
+    },
+    {
+      "epoch": 0.8266666666666667,
+      "grad_norm": 8.406212063696636,
+      "learning_rate": 2e-05,
+      "loss": 2.0469,
+      "step": 186
+    },
+    {
+      "epoch": 0.8311111111111111,
+      "grad_norm": 9.064937399148908,
+      "learning_rate": 2e-05,
+      "loss": 2.2969,
+      "step": 187
+    },
+    {
+      "epoch": 0.8355555555555556,
+      "grad_norm": 9.814113862600934,
+      "learning_rate": 2e-05,
+      "loss": 2.2031,
+      "step": 188
+    },
+    {
+      "epoch": 0.84,
+      "grad_norm": 8.490454270051245,
+      "learning_rate": 2e-05,
+      "loss": 1.9062,
+      "step": 189
+    },
+    {
+      "epoch": 0.8444444444444444,
+      "grad_norm": 10.042492916525509,
+      "learning_rate": 2e-05,
+      "loss": 2.2969,
+      "step": 190
+    },
+    {
+      "epoch": 0.8488888888888889,
+      "grad_norm": 8.27969814835863,
+      "learning_rate": 2e-05,
+      "loss": 1.9766,
+      "step": 191
+    },
+    {
+      "epoch": 0.8533333333333334,
+      "grad_norm": 8.048242096385604,
+      "learning_rate": 2e-05,
+      "loss": 2.1719,
+      "step": 192
+    },
+    {
+      "epoch": 0.8577777777777778,
+      "grad_norm": 9.603437961756839,
+      "learning_rate": 2e-05,
+      "loss": 2.1562,
+      "step": 193
+    },
+    {
+      "epoch": 0.8622222222222222,
+      "grad_norm": 8.275083694283113,
+      "learning_rate": 2e-05,
+      "loss": 1.8828,
+      "step": 194
+    },
+    {
+      "epoch": 0.8666666666666667,
+      "grad_norm": 10.064871537776176,
+      "learning_rate": 2e-05,
+      "loss": 2.1406,
+      "step": 195
+    },
+    {
+      "epoch": 0.8711111111111111,
+      "grad_norm": 8.374997739683083,
+      "learning_rate": 2e-05,
+      "loss": 2.0781,
+      "step": 196
+    },
+    {
+      "epoch": 0.8755555555555555,
+      "grad_norm": 7.21249379570679,
+      "learning_rate": 2e-05,
+      "loss": 1.8359,
+      "step": 197
+    },
+    {
+      "epoch": 0.88,
+      "grad_norm": 9.311535455385785,
+      "learning_rate": 2e-05,
+      "loss": 2.2656,
+      "step": 198
+    },
+    {
+      "epoch": 0.8844444444444445,
+      "grad_norm": 8.987094199282193,
+      "learning_rate": 2e-05,
+      "loss": 2.1562,
+      "step": 199
+    },
+    {
+      "epoch": 0.8888888888888888,
+      "grad_norm": 9.121309174367719,
+      "learning_rate": 2e-05,
+      "loss": 1.7109,
+      "step": 200
+    },
+    {
+      "epoch": 0.8933333333333333,
+      "grad_norm": 8.542343126764104,
+      "learning_rate": 2e-05,
+      "loss": 2.125,
+      "step": 201
+    },
+    {
+      "epoch": 0.8977777777777778,
+      "grad_norm": 8.894800784468975,
+      "learning_rate": 2e-05,
+      "loss": 2.1719,
+      "step": 202
+    },
+    {
+      "epoch": 0.9022222222222223,
+      "grad_norm": 9.523727275145072,
+      "learning_rate": 2e-05,
+      "loss": 2.4375,
+      "step": 203
+    },
+    {
+      "epoch": 0.9066666666666666,
+      "grad_norm": 8.488582799926636,
+      "learning_rate": 2e-05,
+      "loss": 2.25,
+      "step": 204
+    },
+    {
+      "epoch": 0.9111111111111111,
+      "grad_norm": 8.95443308736637,
+      "learning_rate": 2e-05,
+      "loss": 2.0469,
+      "step": 205
+    },
+    {
+      "epoch": 0.9155555555555556,
+      "grad_norm": 9.57975538980046,
+      "learning_rate": 2e-05,
+      "loss": 2.1094,
+      "step": 206
+    },
+    {
+      "epoch": 0.92,
+      "grad_norm": 9.5487274888122,
+      "learning_rate": 2e-05,
+      "loss": 2.1719,
+      "step": 207
+    },
+    {
+      "epoch": 0.9244444444444444,
+      "grad_norm": 8.64118576542224,
+      "learning_rate": 2e-05,
+      "loss": 1.9062,
+      "step": 208
+    },
+    {
+      "epoch": 0.9288888888888889,
+      "grad_norm": 9.445611143984612,
+      "learning_rate": 2e-05,
+      "loss": 2.2188,
+      "step": 209
+    },
+    {
+      "epoch": 0.9333333333333333,
+      "grad_norm": 8.365687118394272,
+      "learning_rate": 2e-05,
+      "loss": 2.125,
+      "step": 210
+    },
+    {
+      "epoch": 0.9377777777777778,
+      "grad_norm": 10.551630661458233,
+      "learning_rate": 2e-05,
+      "loss": 2.5156,
+      "step": 211
+    },
+    {
+      "epoch": 0.9422222222222222,
+      "grad_norm": 7.7567375309607165,
+      "learning_rate": 2e-05,
+      "loss": 2.0781,
+      "step": 212
+    },
+    {
+      "epoch": 0.9466666666666667,
+      "grad_norm": 8.36948163722706,
+      "learning_rate": 2e-05,
+      "loss": 1.7969,
+      "step": 213
+    },
+    {
+      "epoch": 0.9511111111111111,
+      "grad_norm": 9.085838125451598,
+      "learning_rate": 2e-05,
+      "loss": 2.2812,
+      "step": 214
+    },
+    {
+      "epoch": 0.9555555555555556,
+      "grad_norm": 7.674015354486095,
+      "learning_rate": 2e-05,
+      "loss": 1.8438,
+      "step": 215
+    },
+    {
+      "epoch": 0.96,
+      "grad_norm": 10.336774765135166,
+      "learning_rate": 2e-05,
+      "loss": 2.2188,
+      "step": 216
+    },
+    {
+      "epoch": 0.9644444444444444,
+      "grad_norm": 8.260233265601544,
+      "learning_rate": 2e-05,
+      "loss": 2.0938,
+      "step": 217
+    },
+    {
+      "epoch": 0.9688888888888889,
+      "grad_norm": 9.051211960170267,
+      "learning_rate": 2e-05,
+      "loss": 2.3906,
+      "step": 218
+    },
+    {
+      "epoch": 0.9733333333333334,
+      "grad_norm": 9.009500485381727,
+      "learning_rate": 2e-05,
+      "loss": 1.9297,
+      "step": 219
+    },
+    {
+      "epoch": 0.9777777777777777,
+      "grad_norm": 7.821559356870003,
+      "learning_rate": 2e-05,
+      "loss": 1.75,
+      "step": 220
+    },
+    {
+      "epoch": 0.9822222222222222,
+      "grad_norm": 9.470895479431555,
+      "learning_rate": 2e-05,
+      "loss": 2.2969,
+      "step": 221
+    },
+    {
+      "epoch": 0.9866666666666667,
+      "grad_norm": 8.67199973740218,
+      "learning_rate": 2e-05,
+      "loss": 2.0,
+      "step": 222
+    },
+    {
+      "epoch": 0.9911111111111112,
+      "grad_norm": 8.180893476345679,
+      "learning_rate": 2e-05,
+      "loss": 2.1562,
+      "step": 223
+    },
+    {
+      "epoch": 0.9955555555555555,
+      "grad_norm": 9.65167808453405,
+      "learning_rate": 2e-05,
+      "loss": 1.7891,
+      "step": 224
+    },
+    {
+      "epoch": 1.0,
+      "grad_norm": 10.625020345698024,
+      "learning_rate": 2e-05,
+      "loss": 2.4844,
+      "step": 225
+    },
+    {
+      "epoch": 1.0044444444444445,
+      "grad_norm": 7.902584388995808,
+      "learning_rate": 2e-05,
+      "loss": 2.2188,
+      "step": 226
+    },
+    {
+      "epoch": 1.008888888888889,
+      "grad_norm": 10.901665960028515,
+      "learning_rate": 2e-05,
+      "loss": 2.4531,
+      "step": 227
+    },
+    {
+      "epoch": 1.0133333333333334,
+      "grad_norm": 9.05337853691328,
+      "learning_rate": 2e-05,
+      "loss": 2.3438,
+      "step": 228
+    },
+    {
+      "epoch": 1.0177777777777777,
+      "grad_norm": 8.254998435056065,
+      "learning_rate": 2e-05,
+      "loss": 2.3125,
+      "step": 229
+    },
+    {
+      "epoch": 1.0222222222222221,
+      "grad_norm": 8.768545684706751,
+      "learning_rate": 2e-05,
+      "loss": 2.3281,
+      "step": 230
+    },
+    {
+      "epoch": 1.0266666666666666,
+      "grad_norm": 8.373795123781917,
+      "learning_rate": 2e-05,
+      "loss": 2.2656,
+      "step": 231
+    },
+    {
+      "epoch": 1.031111111111111,
+      "grad_norm": 8.548745124013072,
+      "learning_rate": 2e-05,
+      "loss": 1.8125,
+      "step": 232
+    },
+    {
+      "epoch": 1.0355555555555556,
+      "grad_norm": 8.535538036759796,
+      "learning_rate": 2e-05,
+      "loss": 2.0312,
+      "step": 233
+    },
+    {
+      "epoch": 1.04,
+      "grad_norm": 8.366015394772985,
+      "learning_rate": 2e-05,
+      "loss": 2.1719,
+      "step": 234
+    },
+    {
+      "epoch": 1.0444444444444445,
+      "grad_norm": 8.518072989589701,
+      "learning_rate": 2e-05,
+      "loss": 1.7812,
+      "step": 235
+    },
+    {
+      "epoch": 1.048888888888889,
+      "grad_norm": 9.11628292481581,
+      "learning_rate": 2e-05,
+      "loss": 1.6328,
+      "step": 236
+    },
+    {
+      "epoch": 1.0533333333333332,
+      "grad_norm": 8.322607842007608,
+      "learning_rate": 2e-05,
+      "loss": 1.7188,
+      "step": 237
+    },
+    {
+      "epoch": 1.0577777777777777,
+      "grad_norm": 8.64988707997555,
+      "learning_rate": 2e-05,
+      "loss": 2.2812,
+      "step": 238
+    },
+    {
+      "epoch": 1.0622222222222222,
+      "grad_norm": 7.7433121391835495,
+      "learning_rate": 2e-05,
+      "loss": 2.0625,
+      "step": 239
+    },
+    {
+      "epoch": 1.0666666666666667,
+      "grad_norm": 8.983025232189917,
+      "learning_rate": 2e-05,
+      "loss": 2.125,
+      "step": 240
+    },
+    {
+      "epoch": 1.0711111111111111,
+      "grad_norm": 8.622648761008627,
+      "learning_rate": 2e-05,
+      "loss": 2.25,
+      "step": 241
+    },
+    {
+      "epoch": 1.0755555555555556,
+      "grad_norm": 8.751240116824247,
+      "learning_rate": 2e-05,
+      "loss": 2.3125,
+      "step": 242
+    },
+    {
+      "epoch": 1.08,
+      "grad_norm": 8.083581976976605,
+      "learning_rate": 2e-05,
+      "loss": 1.9609,
+      "step": 243
+    },
+    {
+      "epoch": 1.0844444444444445,
+      "grad_norm": 9.190327899813258,
+      "learning_rate": 2e-05,
+      "loss": 1.9453,
+      "step": 244
+    },
+    {
+      "epoch": 1.0888888888888888,
+      "grad_norm": 9.878489615727968,
+      "learning_rate": 2e-05,
+      "loss": 2.1562,
+      "step": 245
+    },
+    {
+      "epoch": 1.0933333333333333,
+      "grad_norm": 8.023213764012711,
+      "learning_rate": 2e-05,
+      "loss": 2.2188,
+      "step": 246
+    },
+    {
+      "epoch": 1.0977777777777777,
+      "grad_norm": 8.742811866505932,
+      "learning_rate": 2e-05,
+      "loss": 1.8672,
+      "step": 247
+    },
+    {
+      "epoch": 1.1022222222222222,
+      "grad_norm": 9.91459591503846,
+      "learning_rate": 2e-05,
+      "loss": 2.1094,
+      "step": 248
+    },
+    {
+      "epoch": 1.1066666666666667,
+      "grad_norm": 8.425761248418882,
+      "learning_rate": 2e-05,
+      "loss": 2.0781,
+      "step": 249
+    },
+    {
+      "epoch": 1.1111111111111112,
+      "grad_norm": 9.625495250064247,
+      "learning_rate": 2e-05,
+      "loss": 2.1719,
+      "step": 250
+    },
+    {
+      "epoch": 1.1155555555555556,
+      "grad_norm": 8.388029024376394,
+      "learning_rate": 2e-05,
+      "loss": 2.0781,
+      "step": 251
+    },
+    {
+      "epoch": 1.12,
+      "grad_norm": 9.331925397744817,
+      "learning_rate": 2e-05,
+      "loss": 1.8984,
+      "step": 252
+    },
+    {
+      "epoch": 1.1244444444444444,
+      "grad_norm": 10.618726234149126,
+      "learning_rate": 2e-05,
+      "loss": 2.1719,
+      "step": 253
+    },
+    {
+      "epoch": 1.1288888888888888,
+      "grad_norm": 9.12296256846119,
+      "learning_rate": 2e-05,
+      "loss": 1.8359,
+      "step": 254
+    },
+    {
+      "epoch": 1.1333333333333333,
+      "grad_norm": 8.674702518466395,
+      "learning_rate": 2e-05,
+      "loss": 1.8125,
+      "step": 255
+    },
+    {
+      "epoch": 1.1377777777777778,
+      "grad_norm": 9.269380164533416,
+      "learning_rate": 2e-05,
+      "loss": 1.7969,
+      "step": 256
+    },
+    {
+      "epoch": 1.1422222222222222,
+      "grad_norm": 10.731666672889588,
+      "learning_rate": 2e-05,
+      "loss": 2.3281,
+      "step": 257
+    },
+    {
+      "epoch": 1.1466666666666667,
+      "grad_norm": 9.787461942572763,
+      "learning_rate": 2e-05,
+      "loss": 1.8828,
+      "step": 258
+    },
+    {
+      "epoch": 1.1511111111111112,
+      "grad_norm": 11.038496031895408,
+      "learning_rate": 2e-05,
+      "loss": 2.5156,
+      "step": 259
+    },
+    {
+      "epoch": 1.1555555555555554,
+      "grad_norm": 9.287870825154199,
+      "learning_rate": 2e-05,
+      "loss": 1.9453,
+      "step": 260
+    },
+    {
+      "epoch": 1.16,
+      "grad_norm": 9.770435327088082,
+      "learning_rate": 2e-05,
+      "loss": 2.0156,
+      "step": 261
+    },
+    {
+      "epoch": 1.1644444444444444,
+      "grad_norm": 9.22360543200526,
+      "learning_rate": 2e-05,
+      "loss": 2.3594,
+      "step": 262
+    },
+    {
+      "epoch": 1.1688888888888889,
+      "grad_norm": 9.363791220832187,
+      "learning_rate": 2e-05,
+      "loss": 1.9141,
+      "step": 263
+    },
+    {
+      "epoch": 1.1733333333333333,
+      "grad_norm": 8.064516058915316,
+      "learning_rate": 2e-05,
+      "loss": 2.0625,
+      "step": 264
+    },
+    {
+      "epoch": 1.1777777777777778,
+      "grad_norm": 8.42339691664346,
+      "learning_rate": 2e-05,
+      "loss": 2.0,
+      "step": 265
+    },
+    {
+      "epoch": 1.1822222222222223,
+      "grad_norm": 9.981753319664886,
+      "learning_rate": 2e-05,
+      "loss": 2.1875,
+      "step": 266
+    },
+    {
+      "epoch": 1.1866666666666668,
+      "grad_norm": 8.610469046155895,
+      "learning_rate": 2e-05,
+      "loss": 2.1875,
+      "step": 267
+    },
+    {
+      "epoch": 1.1911111111111112,
+      "grad_norm": 10.550742939462962,
+      "learning_rate": 2e-05,
+      "loss": 2.2344,
+      "step": 268
+    },
+    {
+      "epoch": 1.1955555555555555,
+      "grad_norm": 9.591166973754616,
+      "learning_rate": 2e-05,
+      "loss": 1.8672,
+      "step": 269
+    },
+    {
+      "epoch": 1.2,
+      "grad_norm": 10.000167878271428,
+      "learning_rate": 2e-05,
+      "loss": 2.1406,
+      "step": 270
+    },
+    {
+      "epoch": 1.2044444444444444,
+      "grad_norm": 12.103955942304149,
+      "learning_rate": 2e-05,
+      "loss": 2.4062,
+      "step": 271
+    },
+    {
+      "epoch": 1.208888888888889,
+      "grad_norm": 9.031778631777534,
+      "learning_rate": 2e-05,
+      "loss": 1.7969,
+      "step": 272
+    },
+    {
+      "epoch": 1.2133333333333334,
+      "grad_norm": 9.60098331704016,
+      "learning_rate": 2e-05,
+      "loss": 1.9297,
+      "step": 273
+    },
+    {
+      "epoch": 1.2177777777777778,
+      "grad_norm": 9.811796795932326,
+      "learning_rate": 2e-05,
+      "loss": 1.9609,
+      "step": 274
+    },
+    {
+      "epoch": 1.2222222222222223,
+      "grad_norm": 10.139621848791595,
+      "learning_rate": 2e-05,
+      "loss": 1.9766,
+      "step": 275
+    },
+    {
+      "epoch": 1.2266666666666666,
+      "grad_norm": 8.830707267838445,
+      "learning_rate": 2e-05,
+      "loss": 2.2188,
+      "step": 276
+    },
+    {
+      "epoch": 1.231111111111111,
+      "grad_norm": 10.319781225642595,
+      "learning_rate": 2e-05,
+      "loss": 2.1875,
+      "step": 277
+    },
+    {
+      "epoch": 1.2355555555555555,
+      "grad_norm": 11.33134440004785,
+      "learning_rate": 2e-05,
+      "loss": 2.3281,
+      "step": 278
+    },
+    {
+      "epoch": 1.24,
+      "grad_norm": 11.09457031376519,
+      "learning_rate": 2e-05,
+      "loss": 2.1875,
+      "step": 279
+    },
+    {
+      "epoch": 1.2444444444444445,
+      "grad_norm": 9.534318277515055,
+      "learning_rate": 2e-05,
+      "loss": 2.0312,
+      "step": 280
+    },
+    {
+      "epoch": 1.248888888888889,
+      "grad_norm": 9.886393938187807,
+      "learning_rate": 2e-05,
+      "loss": 1.8125,
+      "step": 281
+    },
+    {
+      "epoch": 1.2533333333333334,
+      "grad_norm": 8.96431742591612,
+      "learning_rate": 2e-05,
+      "loss": 1.9141,
+      "step": 282
+    },
+    {
+      "epoch": 1.2577777777777777,
+      "grad_norm": 9.192456282348315,
+      "learning_rate": 2e-05,
+      "loss": 1.8359,
+      "step": 283
+    },
+    {
+      "epoch": 1.2622222222222224,
+      "grad_norm": 9.836783363406612,
+      "learning_rate": 2e-05,
+      "loss": 2.1719,
+      "step": 284
+    },
+    {
+      "epoch": 1.2666666666666666,
+      "grad_norm": 9.312363538028382,
+      "learning_rate": 2e-05,
+      "loss": 1.8125,
+      "step": 285
+    },
+    {
+      "epoch": 1.271111111111111,
+      "grad_norm": 12.1557311511815,
+      "learning_rate": 2e-05,
+      "loss": 2.1875,
+      "step": 286
+    },
+    {
+      "epoch": 1.2755555555555556,
+      "grad_norm": 8.574530570175991,
+      "learning_rate": 2e-05,
+      "loss": 1.6562,
+      "step": 287
+    },
+    {
+      "epoch": 1.28,
+      "grad_norm": 9.136544414305224,
+      "learning_rate": 2e-05,
+      "loss": 1.9141,
+      "step": 288
+    },
+    {
+      "epoch": 1.2844444444444445,
+      "grad_norm": 9.278876880664175,
+      "learning_rate": 2e-05,
+      "loss": 2.0469,
+      "step": 289
+    },
+    {
+      "epoch": 1.2888888888888888,
+      "grad_norm": 10.324602931292098,
+      "learning_rate": 2e-05,
+      "loss": 1.6016,
+      "step": 290
+    },
+    {
+      "epoch": 1.2933333333333334,
+      "grad_norm": 9.507055666628855,
+      "learning_rate": 2e-05,
+      "loss": 2.0469,
+      "step": 291
+    },
+    {
+      "epoch": 1.2977777777777777,
+      "grad_norm": 10.570734348106035,
+      "learning_rate": 2e-05,
+      "loss": 1.9844,
+      "step": 292
+    },
+    {
+      "epoch": 1.3022222222222222,
+      "grad_norm": 9.741333228684626,
+      "learning_rate": 2e-05,
+      "loss": 2.1406,
+      "step": 293
+    },
+    {
+      "epoch": 1.3066666666666666,
+      "grad_norm": 9.146760608516939,
+      "learning_rate": 2e-05,
+      "loss": 1.9453,
+      "step": 294
+    },
+    {
+      "epoch": 1.3111111111111111,
+      "grad_norm": 9.669544369952277,
+      "learning_rate": 2e-05,
+      "loss": 2.0,
+      "step": 295
+    },
+    {
+      "epoch": 1.3155555555555556,
+      "grad_norm": 10.737650327577501,
+      "learning_rate": 2e-05,
+      "loss": 1.9453,
+      "step": 296
+    },
+    {
+      "epoch": 1.32,
+      "grad_norm": 9.575520735614779,
+      "learning_rate": 2e-05,
+      "loss": 1.8047,
+      "step": 297
+    },
+    {
+      "epoch": 1.3244444444444445,
+      "grad_norm": 10.221197176089184,
+      "learning_rate": 2e-05,
+      "loss": 1.8516,
+      "step": 298
+    },
+    {
+      "epoch": 1.3288888888888888,
+      "grad_norm": 11.619511748168923,
+      "learning_rate": 2e-05,
+      "loss": 2.0312,
+      "step": 299
+    },
+    {
+      "epoch": 1.3333333333333333,
+      "grad_norm": 8.980309798016947,
+      "learning_rate": 2e-05,
+      "loss": 1.7734,
+      "step": 300
+    },
+    {
+      "epoch": 1.3377777777777777,
+      "grad_norm": 9.501725594236694,
+      "learning_rate": 2e-05,
+      "loss": 2.2812,
+      "step": 301
+    },
+    {
+      "epoch": 1.3422222222222222,
+      "grad_norm": 8.47215040525109,
+      "learning_rate": 2e-05,
+      "loss": 1.7891,
+      "step": 302
+    },
+    {
+      "epoch": 1.3466666666666667,
+      "grad_norm": 9.660637928111782,
+      "learning_rate": 2e-05,
+      "loss": 2.0312,
+      "step": 303
+    },
+    {
+      "epoch": 1.3511111111111112,
+      "grad_norm": 9.395123956867325,
+      "learning_rate": 2e-05,
+      "loss": 1.7109,
+      "step": 304
+    },
+    {
+      "epoch": 1.3555555555555556,
+      "grad_norm": 10.433474936668851,
+      "learning_rate": 2e-05,
+      "loss": 2.125,
+      "step": 305
+    },
+    {
+      "epoch": 1.3599999999999999,
+      "grad_norm": 8.789601404317375,
+      "learning_rate": 2e-05,
+      "loss": 1.9609,
+      "step": 306
+    },
+    {
+      "epoch": 1.3644444444444446,
+      "grad_norm": 10.701696899826665,
+      "learning_rate": 2e-05,
+      "loss": 2.0312,
+      "step": 307
+    },
+    {
+      "epoch": 1.3688888888888888,
+      "grad_norm": 10.376227057645764,
+      "learning_rate": 2e-05,
+      "loss": 2.3125,
+      "step": 308
+    },
+    {
+      "epoch": 1.3733333333333333,
+      "grad_norm": 11.537206307926791,
+      "learning_rate": 2e-05,
+      "loss": 1.8984,
+      "step": 309
+    },
+    {
+      "epoch": 1.3777777777777778,
+      "grad_norm": 10.318458653594108,
+      "learning_rate": 2e-05,
+      "loss": 2.3594,
+      "step": 310
+    },
+    {
+      "epoch": 1.3822222222222222,
+      "grad_norm": 10.12405183576386,
+      "learning_rate": 2e-05,
+      "loss": 2.1875,
+      "step": 311
+    },
+    {
+      "epoch": 1.3866666666666667,
+      "grad_norm": 10.556497883710742,
+      "learning_rate": 2e-05,
+      "loss": 2.3281,
+      "step": 312
+    },
+    {
+      "epoch": 1.3911111111111112,
+      "grad_norm": 12.149236254113228,
+      "learning_rate": 2e-05,
+      "loss": 2.0312,
+      "step": 313
+    },
+    {
+      "epoch": 1.3955555555555557,
+      "grad_norm": 9.397250857149054,
+      "learning_rate": 2e-05,
+      "loss": 2.1562,
+      "step": 314
+    },
+    {
+      "epoch": 1.4,
+      "grad_norm": 10.296797641544096,
+      "learning_rate": 2e-05,
+      "loss": 2.125,
+      "step": 315
+    },
+    {
+      "epoch": 1.4044444444444444,
+      "grad_norm": 11.091468383369255,
+      "learning_rate": 2e-05,
+      "loss": 2.1562,
+      "step": 316
+    },
+    {
+      "epoch": 1.4088888888888889,
+      "grad_norm": 9.828785634035125,
+      "learning_rate": 2e-05,
+      "loss": 2.0781,
+      "step": 317
+    },
+    {
+      "epoch": 1.4133333333333333,
+      "grad_norm": 9.183556325434406,
+      "learning_rate": 2e-05,
+      "loss": 2.0469,
+      "step": 318
+    },
+    {
+      "epoch": 1.4177777777777778,
+      "grad_norm": 10.06583251001861,
+      "learning_rate": 2e-05,
+      "loss": 2.0781,
+      "step": 319
+    },
+    {
+      "epoch": 1.4222222222222223,
+      "grad_norm": 9.219931927054493,
+      "learning_rate": 2e-05,
+      "loss": 2.0781,
+      "step": 320
+    },
+    {
+      "epoch": 1.4266666666666667,
+      "grad_norm": 10.166435687650667,
+      "learning_rate": 2e-05,
+      "loss": 2.2344,
+      "step": 321
+    },
+    {
+      "epoch": 1.431111111111111,
+      "grad_norm": 9.005198276984105,
+      "learning_rate": 2e-05,
+      "loss": 1.9297,
+      "step": 322
+    },
+    {
+      "epoch": 1.4355555555555555,
+      "grad_norm": 9.546181379968486,
+      "learning_rate": 2e-05,
+      "loss": 1.75,
+      "step": 323
+    },
+    {
+      "epoch": 1.44,
+      "grad_norm": 9.612279634743544,
+      "learning_rate": 2e-05,
+      "loss": 1.7578,
+      "step": 324
+    },
+    {
+      "epoch": 1.4444444444444444,
+      "grad_norm": 9.396912630461872,
+      "learning_rate": 2e-05,
+      "loss": 1.9922,
+      "step": 325
+    },
+    {
+      "epoch": 1.448888888888889,
+      "grad_norm": 10.813985842947613,
+      "learning_rate": 2e-05,
+      "loss": 1.8672,
+      "step": 326
+    },
+    {
+      "epoch": 1.4533333333333334,
+      "grad_norm": 10.903268364526092,
+      "learning_rate": 2e-05,
+      "loss": 1.9453,
+      "step": 327
+    },
+    {
+      "epoch": 1.4577777777777778,
+      "grad_norm": 9.897769739556548,
+      "learning_rate": 2e-05,
+      "loss": 1.9375,
+      "step": 328
+    },
+    {
+      "epoch": 1.462222222222222,
+      "grad_norm": 9.661973139023532,
+      "learning_rate": 2e-05,
+      "loss": 2.0156,
+      "step": 329
+    },
+    {
+      "epoch": 1.4666666666666668,
+      "grad_norm": 9.322085806440782,
+      "learning_rate": 2e-05,
+      "loss": 2.0312,
+      "step": 330
+    },
+    {
+      "epoch": 1.471111111111111,
+      "grad_norm": 10.11424053040723,
+      "learning_rate": 2e-05,
+      "loss": 2.2031,
+      "step": 331
+    },
+    {
+      "epoch": 1.4755555555555555,
+      "grad_norm": 10.839027157662272,
+      "learning_rate": 2e-05,
+      "loss": 2.2188,
+      "step": 332
+    },
+    {
+      "epoch": 1.48,
+      "grad_norm": 10.292843241821497,
+      "learning_rate": 2e-05,
+      "loss": 2.1562,
+      "step": 333
+    },
+    {
+      "epoch": 1.4844444444444445,
+      "grad_norm": 11.022673479446821,
+      "learning_rate": 2e-05,
+      "loss": 1.8125,
+      "step": 334
+    },
+    {
+      "epoch": 1.488888888888889,
+      "grad_norm": 10.444196519603155,
+      "learning_rate": 2e-05,
+      "loss": 2.0625,
+      "step": 335
+    },
+    {
+      "epoch": 1.4933333333333334,
+      "grad_norm": 9.825547940863197,
+      "learning_rate": 2e-05,
+      "loss": 2.2188,
+      "step": 336
+    },
+    {
+      "epoch": 1.4977777777777779,
+      "grad_norm": 10.710457616943367,
+      "learning_rate": 2e-05,
+      "loss": 2.0469,
+      "step": 337
+    },
+    {
+      "epoch": 1.5022222222222221,
+      "grad_norm": 10.071808262071546,
+      "learning_rate": 2e-05,
+      "loss": 1.8203,
+      "step": 338
+    },
+    {
+      "epoch": 1.5066666666666668,
+      "grad_norm": 12.697850584638616,
+      "learning_rate": 2e-05,
+      "loss": 2.2188,
+      "step": 339
+    },
+    {
+      "epoch": 1.511111111111111,
+      "grad_norm": 11.452322880683965,
+      "learning_rate": 2e-05,
+      "loss": 1.9688,
+      "step": 340
+    },
+    {
+      "epoch": 1.5155555555555555,
+      "grad_norm": 10.012112249417862,
+      "learning_rate": 2e-05,
+      "loss": 2.1562,
+      "step": 341
+    },
+    {
+      "epoch": 1.52,
+      "grad_norm": 9.27556865719658,
+      "learning_rate": 2e-05,
+      "loss": 1.7344,
+      "step": 342
+    },
+    {
+      "epoch": 1.5244444444444445,
+      "grad_norm": 10.030651735041772,
+      "learning_rate": 2e-05,
+      "loss": 2.0156,
+      "step": 343
+    },
+    {
+      "epoch": 1.528888888888889,
+      "grad_norm": 10.84894107495043,
+      "learning_rate": 2e-05,
+      "loss": 1.9609,
+      "step": 344
+    },
+    {
+      "epoch": 1.5333333333333332,
+      "grad_norm": 9.686071352546097,
+      "learning_rate": 2e-05,
+      "loss": 2.0156,
+      "step": 345
+    },
+    {
+      "epoch": 1.537777777777778,
+      "grad_norm": 10.44813192270066,
+      "learning_rate": 2e-05,
+      "loss": 1.9375,
+      "step": 346
+    },
+    {
+      "epoch": 1.5422222222222222,
+      "grad_norm": 8.765061020840172,
+      "learning_rate": 2e-05,
+      "loss": 1.6562,
+      "step": 347
+    },
+    {
+      "epoch": 1.5466666666666666,
+      "grad_norm": 8.985804693982434,
+      "learning_rate": 2e-05,
+      "loss": 1.75,
+      "step": 348
+    },
+    {
+      "epoch": 1.551111111111111,
+      "grad_norm": 11.823255616209511,
+      "learning_rate": 2e-05,
+      "loss": 2.0781,
+      "step": 349
+    },
+    {
+      "epoch": 1.5555555555555556,
+      "grad_norm": 11.495061262551523,
+      "learning_rate": 2e-05,
+      "loss": 2.5156,
+      "step": 350
+    },
+    {
+      "epoch": 1.56,
+      "grad_norm": 9.561346217451073,
+      "learning_rate": 2e-05,
+      "loss": 1.8672,
+      "step": 351
+    },
+    {
+      "epoch": 1.5644444444444443,
+      "grad_norm": 9.342446156499046,
+      "learning_rate": 2e-05,
+      "loss": 1.875,
+      "step": 352
+    },
+    {
+      "epoch": 1.568888888888889,
+      "grad_norm": 12.779860521055175,
+      "learning_rate": 2e-05,
+      "loss": 2.4062,
+      "step": 353
+    },
+    {
+      "epoch": 1.5733333333333333,
+      "grad_norm": 11.818048303883572,
+      "learning_rate": 2e-05,
+      "loss": 2.0938,
+      "step": 354
+    },
+    {
+      "epoch": 1.5777777777777777,
+      "grad_norm": 9.77034434763645,
+      "learning_rate": 2e-05,
+      "loss": 1.9766,
+      "step": 355
+    },
+    {
+      "epoch": 1.5822222222222222,
+      "grad_norm": 10.06745872726983,
+      "learning_rate": 2e-05,
+      "loss": 2.0156,
+      "step": 356
+    },
+    {
+      "epoch": 1.5866666666666667,
+      "grad_norm": 9.930805476088743,
+      "learning_rate": 2e-05,
+      "loss": 1.8828,
+      "step": 357
+    },
+    {
+      "epoch": 1.5911111111111111,
+      "grad_norm": 9.168520834247708,
+      "learning_rate": 2e-05,
+      "loss": 1.9375,
+      "step": 358
+    },
+    {
+      "epoch": 1.5955555555555554,
+      "grad_norm": 11.622612602238005,
+      "learning_rate": 2e-05,
+      "loss": 2.0938,
+      "step": 359
+    },
+    {
+      "epoch": 1.6,
+      "grad_norm": 10.036708835228346,
+      "learning_rate": 2e-05,
+      "loss": 2.0938,
+      "step": 360
+    },
+    {
+      "epoch": 1.6044444444444443,
+      "grad_norm": 10.01751889687667,
+      "learning_rate": 2e-05,
+      "loss": 2.3281,
+      "step": 361
+    },
+    {
+      "epoch": 1.608888888888889,
+      "grad_norm": 9.2288506113107,
+      "learning_rate": 2e-05,
+      "loss": 2.0469,
+      "step": 362
+    },
+    {
+      "epoch": 1.6133333333333333,
+      "grad_norm": 9.779302395749015,
+      "learning_rate": 2e-05,
+      "loss": 2.0156,
+      "step": 363
+    },
+    {
+      "epoch": 1.6177777777777778,
+      "grad_norm": 11.874561771022696,
+      "learning_rate": 2e-05,
+      "loss": 2.7031,
+      "step": 364
+    },
+    {
+      "epoch": 1.6222222222222222,
+      "grad_norm": 11.068350121693435,
+      "learning_rate": 2e-05,
+      "loss": 2.5312,
+      "step": 365
+    },
+    {
+      "epoch": 1.6266666666666667,
+      "grad_norm": 9.445435207071657,
+      "learning_rate": 2e-05,
+      "loss": 1.5859,
+      "step": 366
+    },
+    {
+      "epoch": 1.6311111111111112,
+      "grad_norm": 9.298847970100631,
+      "learning_rate": 2e-05,
+      "loss": 1.9141,
+      "step": 367
+    },
+    {
+      "epoch": 1.6355555555555554,
+      "grad_norm": 8.413217420274737,
+      "learning_rate": 2e-05,
+      "loss": 1.8984,
+      "step": 368
+    },
+    {
+      "epoch": 1.6400000000000001,
+      "grad_norm": 9.54957489717209,
+      "learning_rate": 2e-05,
+      "loss": 1.5469,
+      "step": 369
+    },
+    {
+      "epoch": 1.6444444444444444,
+      "grad_norm": 9.679193994916751,
+      "learning_rate": 2e-05,
+      "loss": 1.9922,
+      "step": 370
+    },
+    {
+      "epoch": 1.6488888888888888,
+      "grad_norm": 9.278417174624353,
+      "learning_rate": 2e-05,
+      "loss": 2.1406,
+      "step": 371
+    },
+    {
+      "epoch": 1.6533333333333333,
+      "grad_norm": 10.372249329437343,
+      "learning_rate": 2e-05,
+      "loss": 2.3594,
+      "step": 372
+    },
+    {
+      "epoch": 1.6577777777777778,
+      "grad_norm": 11.971047086267719,
+      "learning_rate": 2e-05,
+      "loss": 1.7422,
+      "step": 373
+    },
+    {
+      "epoch": 1.6622222222222223,
+      "grad_norm": 8.824955907342984,
+      "learning_rate": 2e-05,
+      "loss": 1.7031,
+      "step": 374
+    },
+    {
+      "epoch": 1.6666666666666665,
+      "grad_norm": 11.269758864536406,
+      "learning_rate": 2e-05,
+      "loss": 2.3281,
+      "step": 375
+    },
+    {
+      "epoch": 1.6711111111111112,
+      "grad_norm": 9.215523691898081,
+      "learning_rate": 2e-05,
+      "loss": 1.8516,
+      "step": 376
+    },
+    {
+      "epoch": 1.6755555555555555,
+      "grad_norm": 13.392516768077474,
+      "learning_rate": 2e-05,
+      "loss": 2.2969,
+      "step": 377
+    },
+    {
+      "epoch": 1.6800000000000002,
+      "grad_norm": 10.855357404732818,
+      "learning_rate": 2e-05,
+      "loss": 1.8516,
+      "step": 378
+    },
+    {
+      "epoch": 1.6844444444444444,
+      "grad_norm": 11.224493199282392,
+      "learning_rate": 2e-05,
+      "loss": 2.2031,
+      "step": 379
+    },
+    {
+      "epoch": 1.6888888888888889,
+      "grad_norm": 9.81164061395055,
+      "learning_rate": 2e-05,
+      "loss": 2.0469,
+      "step": 380
+    },
+    {
+      "epoch": 1.6933333333333334,
+      "grad_norm": 8.286741614412454,
+      "learning_rate": 2e-05,
+      "loss": 1.75,
+      "step": 381
+    },
+    {
+      "epoch": 1.6977777777777778,
+      "grad_norm": 8.45706680774069,
+      "learning_rate": 2e-05,
+      "loss": 2.0469,
+      "step": 382
+    },
+    {
+      "epoch": 1.7022222222222223,
+      "grad_norm": 9.686172566068816,
+      "learning_rate": 2e-05,
+      "loss": 1.8203,
+      "step": 383
+    },
+    {
+      "epoch": 1.7066666666666666,
+      "grad_norm": 9.612955015308016,
+      "learning_rate": 2e-05,
+      "loss": 1.9375,
+      "step": 384
+    },
+    {
+      "epoch": 1.7111111111111112,
+      "grad_norm": 10.486996318517688,
+      "learning_rate": 2e-05,
+      "loss": 2.125,
+      "step": 385
+    },
+    {
+      "epoch": 1.7155555555555555,
+      "grad_norm": 10.202128035531821,
+      "learning_rate": 2e-05,
+      "loss": 1.8438,
+      "step": 386
+    },
+    {
+      "epoch": 1.72,
+      "grad_norm": 9.86967420635305,
+      "learning_rate": 2e-05,
+      "loss": 2.0312,
+      "step": 387
+    },
+    {
+      "epoch": 1.7244444444444444,
+      "grad_norm": 10.020113750058115,
+      "learning_rate": 2e-05,
+      "loss": 1.875,
+      "step": 388
+    },
+    {
+      "epoch": 1.728888888888889,
+      "grad_norm": 9.300990268252379,
+      "learning_rate": 2e-05,
+      "loss": 1.8281,
+      "step": 389
+    },
+    {
+      "epoch": 1.7333333333333334,
+      "grad_norm": 9.232728431626569,
+      "learning_rate": 2e-05,
+      "loss": 1.8828,
+      "step": 390
+    },
+    {
+      "epoch": 1.7377777777777776,
+      "grad_norm": 11.383980500694227,
+      "learning_rate": 2e-05,
+      "loss": 2.0781,
+      "step": 391
+    },
+    {
+      "epoch": 1.7422222222222223,
+      "grad_norm": 9.749624366403,
+      "learning_rate": 2e-05,
+      "loss": 1.6406,
+      "step": 392
+    },
+    {
+      "epoch": 1.7466666666666666,
+      "grad_norm": 9.995858980509581,
+      "learning_rate": 2e-05,
+      "loss": 1.9141,
+      "step": 393
+    },
+    {
+      "epoch": 1.751111111111111,
+      "grad_norm": 9.386023764896441,
+      "learning_rate": 2e-05,
+      "loss": 1.8828,
+      "step": 394
+    },
+    {
+      "epoch": 1.7555555555555555,
+      "grad_norm": 9.309073213433127,
+      "learning_rate": 2e-05,
+      "loss": 2.3438,
+      "step": 395
+    },
+    {
+      "epoch": 1.76,
+      "grad_norm": 10.065441890008497,
+      "learning_rate": 2e-05,
+      "loss": 1.8125,
+      "step": 396
+    },
+    {
+      "epoch": 1.7644444444444445,
+      "grad_norm": 11.074469875647273,
+      "learning_rate": 2e-05,
+      "loss": 2.3125,
+      "step": 397
+    },
+    {
+      "epoch": 1.7688888888888887,
+      "grad_norm": 9.72164376834279,
+      "learning_rate": 2e-05,
+      "loss": 1.9844,
+      "step": 398
+    },
+    {
+      "epoch": 1.7733333333333334,
+      "grad_norm": 11.891107664404425,
+      "learning_rate": 2e-05,
+      "loss": 2.4531,
+      "step": 399
+    },
+    {
+      "epoch": 1.7777777777777777,
+      "grad_norm": 9.5525131232536,
+      "learning_rate": 2e-05,
+      "loss": 2.0156,
+      "step": 400
+    },
+    {
+      "epoch": 1.7822222222222224,
+      "grad_norm": 10.009340119980289,
+      "learning_rate": 2e-05,
+      "loss": 2.25,
+      "step": 401
+    },
+    {
+      "epoch": 1.7866666666666666,
+      "grad_norm": 8.984784889108067,
+      "learning_rate": 2e-05,
+      "loss": 2.1094,
+      "step": 402
+    },
+    {
+      "epoch": 1.791111111111111,
+      "grad_norm": 11.26902723008742,
+      "learning_rate": 2e-05,
+      "loss": 2.3438,
+      "step": 403
+    },
+    {
+      "epoch": 1.7955555555555556,
+      "grad_norm": 10.044206107367375,
+      "learning_rate": 2e-05,
+      "loss": 1.8984,
+      "step": 404
+    },
+    {
+      "epoch": 1.8,
+      "grad_norm": 11.985732025363259,
+      "learning_rate": 2e-05,
+      "loss": 2.2969,
+      "step": 405
+    },
+    {
+      "epoch": 1.8044444444444445,
+      "grad_norm": 10.180296909266984,
+      "learning_rate": 2e-05,
+      "loss": 2.1406,
+      "step": 406
+    },
+    {
+      "epoch": 1.8088888888888888,
+      "grad_norm": 9.807051590697165,
+      "learning_rate": 2e-05,
+      "loss": 1.8125,
+      "step": 407
+    },
+    {
+      "epoch": 1.8133333333333335,
+      "grad_norm": 9.902126156561627,
+      "learning_rate": 2e-05,
+      "loss": 2.0781,
+      "step": 408
+    },
+    {
+      "epoch": 1.8177777777777777,
+      "grad_norm": 11.28265248504358,
+      "learning_rate": 2e-05,
+      "loss": 2.0625,
+      "step": 409
+    },
+    {
+      "epoch": 1.8222222222222222,
+      "grad_norm": 10.300193895317747,
+      "learning_rate": 2e-05,
+      "loss": 1.9922,
+      "step": 410
+    },
+    {
+      "epoch": 1.8266666666666667,
+      "grad_norm": 9.968612583128197,
+      "learning_rate": 2e-05,
+      "loss": 1.6328,
+      "step": 411
+    },
+    {
+      "epoch": 1.8311111111111111,
+      "grad_norm": 10.54301185980636,
+      "learning_rate": 2e-05,
+      "loss": 1.9688,
+      "step": 412
+    },
+    {
+      "epoch": 1.8355555555555556,
+      "grad_norm": 10.137631393097664,
+      "learning_rate": 2e-05,
+      "loss": 1.9141,
+      "step": 413
+    },
+    {
+      "epoch": 1.8399999999999999,
+      "grad_norm": 9.95415051765169,
+      "learning_rate": 2e-05,
+      "loss": 1.8594,
+      "step": 414
+    },
+    {
+      "epoch": 1.8444444444444446,
+      "grad_norm": 8.857256055475087,
+      "learning_rate": 2e-05,
+      "loss": 1.9531,
+      "step": 415
+    },
+    {
+      "epoch": 1.8488888888888888,
+      "grad_norm": 11.140926979330633,
+      "learning_rate": 2e-05,
+      "loss": 1.9609,
+      "step": 416
+    },
+    {
+      "epoch": 1.8533333333333335,
+      "grad_norm": 10.028064576158135,
+      "learning_rate": 2e-05,
+      "loss": 1.9688,
+      "step": 417
+    },
+    {
+      "epoch": 1.8577777777777778,
+      "grad_norm": 10.466269062243269,
+      "learning_rate": 2e-05,
+      "loss": 1.7969,
+      "step": 418
+    },
+    {
+      "epoch": 1.8622222222222222,
+      "grad_norm": 11.668307334301828,
+      "learning_rate": 2e-05,
+      "loss": 2.6719,
+      "step": 419
+    },
+    {
+      "epoch": 1.8666666666666667,
+      "grad_norm": 11.366733697595926,
+      "learning_rate": 2e-05,
+      "loss": 1.9062,
+      "step": 420
+    },
+    {
+      "epoch": 1.871111111111111,
+      "grad_norm": 8.999350196293568,
+      "learning_rate": 2e-05,
+      "loss": 2.0469,
+      "step": 421
+    },
+    {
+      "epoch": 1.8755555555555556,
+      "grad_norm": 9.084461337831668,
+      "learning_rate": 2e-05,
+      "loss": 1.4844,
+      "step": 422
+    },
+    {
+      "epoch": 1.88,
+      "grad_norm": 10.220114322882393,
+      "learning_rate": 2e-05,
+      "loss": 1.7812,
+      "step": 423
+    },
+    {
+      "epoch": 1.8844444444444446,
+      "grad_norm": 11.807202036168531,
+      "learning_rate": 2e-05,
+      "loss": 2.2969,
+      "step": 424
+    },
+    {
+      "epoch": 1.8888888888888888,
+      "grad_norm": 9.969668555900027,
+      "learning_rate": 2e-05,
+      "loss": 1.7109,
+      "step": 425
+    },
+    {
+      "epoch": 1.8933333333333333,
+      "grad_norm": 12.361793884595066,
+      "learning_rate": 2e-05,
+      "loss": 2.1562,
+      "step": 426
+    },
+    {
+      "epoch": 1.8977777777777778,
+      "grad_norm": 9.129524872614237,
+      "learning_rate": 2e-05,
+      "loss": 1.8906,
+      "step": 427
+    },
+    {
+      "epoch": 1.9022222222222223,
+      "grad_norm": 10.188549502598391,
+      "learning_rate": 2e-05,
+      "loss": 2.0625,
+      "step": 428
+    },
+    {
+      "epoch": 1.9066666666666667,
+      "grad_norm": 12.027815632983923,
+      "learning_rate": 2e-05,
+      "loss": 1.9609,
+      "step": 429
+    },
+    {
+      "epoch": 1.911111111111111,
+      "grad_norm": 10.2380167437162,
+      "learning_rate": 2e-05,
+      "loss": 2.0156,
+      "step": 430
+    },
+    {
+      "epoch": 1.9155555555555557,
+      "grad_norm": 11.051911071146653,
+      "learning_rate": 2e-05,
+      "loss": 2.0938,
+      "step": 431
+    },
+    {
+      "epoch": 1.92,
+      "grad_norm": 11.393530191033742,
+      "learning_rate": 2e-05,
+      "loss": 2.0469,
+      "step": 432
+    },
+    {
+      "epoch": 1.9244444444444444,
+      "grad_norm": 10.835803185177586,
+      "learning_rate": 2e-05,
+      "loss": 1.9141,
+      "step": 433
+    },
+    {
+      "epoch": 1.9288888888888889,
+      "grad_norm": 11.485374005633654,
+      "learning_rate": 2e-05,
+      "loss": 2.0469,
+      "step": 434
+    },
+    {
+      "epoch": 1.9333333333333333,
+      "grad_norm": 10.752213891272653,
+      "learning_rate": 2e-05,
+      "loss": 1.7188,
+      "step": 435
+    },
+    {
+      "epoch": 1.9377777777777778,
+      "grad_norm": 11.697799215130955,
+      "learning_rate": 2e-05,
+      "loss": 2.1094,
+      "step": 436
+    },
+    {
+      "epoch": 1.942222222222222,
+      "grad_norm": 11.501946191290049,
+      "learning_rate": 2e-05,
+      "loss": 2.1406,
+      "step": 437
+    },
+    {
+      "epoch": 1.9466666666666668,
+      "grad_norm": 12.034890966109318,
+      "learning_rate": 2e-05,
+      "loss": 1.9297,
+      "step": 438
+    },
+    {
+      "epoch": 1.951111111111111,
+      "grad_norm": 9.858014472577644,
+      "learning_rate": 2e-05,
+      "loss": 1.7266,
+      "step": 439
+    },
+    {
+      "epoch": 1.9555555555555557,
+      "grad_norm": 10.619333698590266,
+      "learning_rate": 2e-05,
+      "loss": 1.9688,
+      "step": 440
+    },
+    {
+      "epoch": 1.96,
+      "grad_norm": 14.999912707435012,
+      "learning_rate": 2e-05,
+      "loss": 2.1875,
+      "step": 441
+    },
+    {
+      "epoch": 1.9644444444444444,
+      "grad_norm": 11.019485571064589,
+      "learning_rate": 2e-05,
+      "loss": 2.2812,
+      "step": 442
+    },
+    {
+      "epoch": 1.968888888888889,
+      "grad_norm": 12.258569003698977,
+      "learning_rate": 2e-05,
+      "loss": 1.9375,
+      "step": 443
+    },
+    {
+      "epoch": 1.9733333333333334,
+      "grad_norm": 9.74089228317154,
+      "learning_rate": 2e-05,
+      "loss": 1.9453,
+      "step": 444
+    },
+    {
+      "epoch": 1.9777777777777779,
+      "grad_norm": 10.264590234226684,
+      "learning_rate": 2e-05,
+      "loss": 1.9688,
+      "step": 445
+    },
+    {
+      "epoch": 1.982222222222222,
+      "grad_norm": 12.618326834003154,
+      "learning_rate": 2e-05,
+      "loss": 2.3594,
+      "step": 446
+    },
+    {
+      "epoch": 1.9866666666666668,
+      "grad_norm": 10.435626076225525,
+      "learning_rate": 2e-05,
+      "loss": 1.8516,
+      "step": 447
+    },
+    {
+      "epoch": 1.991111111111111,
+      "grad_norm": 9.78585230694539,
+      "learning_rate": 2e-05,
+      "loss": 1.9375,
+      "step": 448
+    },
+    {
+      "epoch": 1.9955555555555555,
+      "grad_norm": 9.531984004472102,
+      "learning_rate": 2e-05,
+      "loss": 1.9922,
+      "step": 449
+    },
+    {
+      "epoch": 2.0,
+      "grad_norm": 15.775319902816523,
+      "learning_rate": 2e-05,
+      "loss": 2.5781,
+      "step": 450
+    }
+  ],
+  "logging_steps": 1.0,
+  "max_steps": 900,
+  "num_input_tokens_seen": 0,
+  "num_train_epochs": 4,
+  "save_steps": 500,
+  "total_flos": 8728036245504.0,
+  "train_batch_size": 8,
+  "trial_name": null,
+  "trial_params": null
+}

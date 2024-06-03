@@ -1,0 +1,27 @@
+[2024-05-04 00:14:01,829] [INFO] [real_accelerator.py:191:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-05-04 00:14:04,254] [WARNING] [runner.py:202:fetch_hostfile] Unable to find hostfile, will proceed with training with local resources only.
+[2024-05-04 00:14:04,260] [INFO] [runner.py:568:main] cmd = /root/miniconda3/bin/python -u -m deepspeed.launcher.launch --world_info=eyJsb2NhbGhvc3QiOiBbMF19 --master_addr=127.0.0.1 --master_port=29500 --enable_each_rank_log=None fine-tune.py --report_to none --data_path data/KG_train.json --model_name_or_path baichuan-inc/Baichuan2-7B-Chat --output_dir output_KG_rail --model_max_length 512 --num_train_epochs 4 --per_device_train_batch_size 8 --gradient_accumulation_steps 2 --save_strategy no --learning_rate 2e-5 --lr_scheduler_type constant --adam_beta1 0.9 --adam_beta2 0.98 --adam_epsilon 1e-8 --max_grad_norm 1.0 --weight_decay 1e-4 --warmup_ratio 0.0 --logging_steps 1 --gradient_checkpointing True --deepspeed ds_config.json --bf16 True --tf32 True --use_lora True
+[2024-05-04 00:14:06,657] [INFO] [real_accelerator.py:191:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-05-04 00:14:08,979] [INFO] [launch.py:145:main] WORLD INFO DICT: {'localhost': [0]}
+[2024-05-04 00:14:08,979] [INFO] [launch.py:151:main] nnodes=1, num_local_procs=1, node_rank=0
+[2024-05-04 00:14:08,979] [INFO] [launch.py:162:main] global_rank_mapping=defaultdict(<class 'list'>, {'localhost': [0]})
+[2024-05-04 00:14:08,979] [INFO] [launch.py:163:main] dist_world_size=1
+[2024-05-04 00:14:08,979] [INFO] [launch.py:165:main] Setting CUDA_VISIBLE_DEVICES=0
+[2024-05-04 00:14:08,998] [INFO] [launch.py:253:main] process 1133 spawned with command: ['/root/miniconda3/bin/python', '-u', 'fine-tune.py', '--local_rank=0', '--report_to', 'none', '--data_path', 'data/KG_train.json', '--model_name_or_path', 'baichuan-inc/Baichuan2-7B-Chat', '--output_dir', 'output_KG_rail', '--model_max_length', '512', '--num_train_epochs', '4', '--per_device_train_batch_size', '8', '--gradient_accumulation_steps', '2', '--save_strategy', 'no', '--learning_rate', '2e-5', '--lr_scheduler_type', 'constant', '--adam_beta1', '0.9', '--adam_beta2', '0.98', '--adam_epsilon', '1e-8', '--max_grad_norm', '1.0', '--weight_decay', '1e-4', '--warmup_ratio', '0.0', '--logging_steps', '1', '--gradient_checkpointing', 'True', '--deepspeed', 'ds_config.json', '--bf16', 'True', '--tf32', 'True', '--use_lora', 'True']
+
+===================================BUG REPORT===================================
+Welcome to bitsandbytes. For bug reports, please run
+
+python -m bitsandbytes
+
+ and submit this information together with your error trace to: https://github.com/TimDettmers/bitsandbytes/issues
+================================================================================
+bin /root/miniconda3/lib/python3.8/site-packages/bitsandbytes/libbitsandbytes_cuda118.so
+CUDA_SETUP: WARNING! libcudart.so not found in any environmental path. Searching in backup paths...
+CUDA SETUP: CUDA runtime path found: /usr/local/cuda/lib64/libcudart.so
+CUDA SETUP: Highest compute capability among GPUs detected: 8.9
+CUDA SETUP: Detected CUDA version 118
+CUDA SETUP: Loading binary /root/miniconda3/lib/python3.8/site-packages/bitsandbytes/libbitsandbytes_cuda118.so...
+[2024-05-04 00:14:12,943] [INFO] [real_accelerator.py:191:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-05-04 00:14:15,931] [INFO] [comm.py:637:init_distributed] cdb=None
+[2024-05-04 00:14:15,931] [INFO] [comm.py:668:init_distributed] Initializing TorchBackend in DeepSpeed with backend nccl

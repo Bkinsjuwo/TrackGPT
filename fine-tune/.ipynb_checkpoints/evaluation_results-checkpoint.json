@@ -1,0 +1,13 @@
+{
+    "Bleu": {
+        "Average bleu score": 0.07868500079990152,
+        "Max bleu": 0.3325845096597243,
+        "Min bleu": 5.233427736988301e-155,
+        "Variance": 0.009710175782144429
+    },
+    "average_rouge_score": {
+        "rouge-1": 0.0,
+        "rouge-2": 0.0,
+        "rouge-l": 0.0
+    }
+}

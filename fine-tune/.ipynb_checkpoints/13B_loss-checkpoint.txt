@@ -1,0 +1,32 @@
+[2024-05-08 22:30:42,564] [INFO] [real_accelerator.py:203:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[93m [WARNING] [0m async_io requires the dev libaio .so object and headers but these were not found.
+[93m [WARNING] [0m async_io: please install the libaio-dev package with apt
+[93m [WARNING] [0m If libaio is already installed (perhaps from source), try setting the CFLAGS and LDFLAGS environment variables to where it can be found.
+[93m [WARNING] [0m Please specify the CUTLASS repo directory as environment variable $CUTLASS_PATH
+[93m [WARNING] [0m sparse_attn requires a torch version >= 1.5 and < 2.0 but detected 2.0
+[93m [WARNING] [0m using untested triton version (2.0.0), only 1.0.0 is known to be compatible
+[2024-05-08 22:30:45,134] [WARNING] [runner.py:202:fetch_hostfile] Unable to find hostfile, will proceed with training with local resources only.
+[2024-05-08 22:30:45,134] [INFO] [runner.py:568:main] cmd = /root/miniconda3/bin/python -u -m deepspeed.launcher.launch --world_info=eyJsb2NhbGhvc3QiOiBbMF19 --master_addr=127.0.0.1 --master_port=29500 --enable_each_rank_log=None fine-tune.py --report_to none --data_path data/subway_rail_train_dataset.json --model_name_or_path baichuan-inc/Baichuan2-13B-Chat --output_dir output_13B --model_max_length 512 --num_train_epochs 4 --per_device_train_batch_size 8 --gradient_accumulation_steps 1 --save_strategy epoch --learning_rate 2e-5 --lr_scheduler_type constant --adam_beta1 0.9 --adam_beta2 0.98 --adam_epsilon 1e-8 --max_grad_norm 1.0 --weight_decay 1e-4 --warmup_ratio 0.0 --logging_steps 1 --gradient_checkpointing True --deepspeed ds_config.json --bf16 True --tf32 True --use_lora True
+[2024-05-08 22:30:46,886] [INFO] [real_accelerator.py:203:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[93m [WARNING] [0m async_io requires the dev libaio .so object and headers but these were not found.
+[93m [WARNING] [0m async_io: please install the libaio-dev package with apt
+[93m [WARNING] [0m If libaio is already installed (perhaps from source), try setting the CFLAGS and LDFLAGS environment variables to where it can be found.
+[93m [WARNING] [0m Please specify the CUTLASS repo directory as environment variable $CUTLASS_PATH
+[93m [WARNING] [0m sparse_attn requires a torch version >= 1.5 and < 2.0 but detected 2.0
+[93m [WARNING] [0m using untested triton version (2.0.0), only 1.0.0 is known to be compatible
+[2024-05-08 22:30:49,060] [INFO] [launch.py:146:main] WORLD INFO DICT: {'localhost': [0]}
+[2024-05-08 22:30:49,060] [INFO] [launch.py:152:main] nnodes=1, num_local_procs=1, node_rank=0
+[2024-05-08 22:30:49,060] [INFO] [launch.py:163:main] global_rank_mapping=defaultdict(<class 'list'>, {'localhost': [0]})
+[2024-05-08 22:30:49,060] [INFO] [launch.py:164:main] dist_world_size=1
+[2024-05-08 22:30:49,060] [INFO] [launch.py:168:main] Setting CUDA_VISIBLE_DEVICES=0
+[2024-05-08 22:30:49,074] [INFO] [launch.py:256:main] process 6440 spawned with command: ['/root/miniconda3/bin/python', '-u', 'fine-tune.py', '--local_rank=0', '--report_to', 'none', '--data_path', 'data/subway_rail_train_dataset.json', '--model_name_or_path', 'baichuan-inc/Baichuan2-13B-Chat', '--output_dir', 'output_13B', '--model_max_length', '512', '--num_train_epochs', '4', '--per_device_train_batch_size', '8', '--gradient_accumulation_steps', '1', '--save_strategy', 'epoch', '--learning_rate', '2e-5', '--lr_scheduler_type', 'constant', '--adam_beta1', '0.9', '--adam_beta2', '0.98', '--adam_epsilon', '1e-8', '--max_grad_norm', '1.0', '--weight_decay', '1e-4', '--warmup_ratio', '0.0', '--logging_steps', '1', '--gradient_checkpointing', 'True', '--deepspeed', 'ds_config.json', '--bf16', 'True', '--tf32', 'True', '--use_lora', 'True']
+[2024-05-08 22:30:51,500] [INFO] [real_accelerator.py:203:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[93m [WARNING] [0m async_io requires the dev libaio .so object and headers but these were not found.
+[93m [WARNING] [0m async_io: please install the libaio-dev package with apt
+[93m [WARNING] [0m If libaio is already installed (perhaps from source), try setting the CFLAGS and LDFLAGS environment variables to where it can be found.
+[93m [WARNING] [0m Please specify the CUTLASS repo directory as environment variable $CUTLASS_PATH
+[93m [WARNING] [0m sparse_attn requires a torch version >= 1.5 and < 2.0 but detected 2.0
+[93m [WARNING] [0m using untested triton version (2.0.0), only 1.0.0 is known to be compatible
+[2024-05-08 22:30:54,197] [INFO] [comm.py:637:init_distributed] cdb=None
+[2024-05-08 22:30:54,198] [INFO] [comm.py:668:init_distributed] Initializing TorchBackend in DeepSpeed with backend nccl
+[2024-05-08 22:30:55,720] [INFO] [partition_parameters.py:345:__exit__] finished initializing model - num_params = 283, num_elems = 13.26B
