@@ -3,19 +3,20 @@ import torch
 import streamlit as st
 from transformers import AutoModelForCausalLM, AutoTokenizer
 from transformers.generation.utils import GenerationConfig
+from peft import AutoPeftModelForCausalLM
 
-
-st.set_page_config(page_title="Baichuan 2")
-st.title("Baichuan 2")
+st.set_page_config(page_title="TrackGPT")
+st.title("TrackGPT")
 
 
 @st.cache_resource
 def init_model():
     model = AutoModelForCausalLM.from_pretrained(
-        "model/Baichuan2-13B-Chat",
+        "./fine-tune/baichuan-inc/Baichuan2-7B-Chat",
         torch_dtype=torch.float16,
         trust_remote_code=True
     )
+    # model = AutoPeftModelForCausalLM.from_pretrained("./fine-tune/output_7B_CHAT_8epochs", trust_remote_code=True)
     model = model.quantize(8).cuda() 
     # model = AutoModelForCausalLM.from_pretrained(
     #     "model/Baichuan2-13B-Chat",
@@ -24,13 +25,14 @@ def init_model():
     #     trust_remote_code=True
     # )
     model.generation_config = GenerationConfig.from_pretrained(
-        "model/Baichuan2-13B-Chat"
+        "./fine-tune/baichuan-inc/Baichuan2-7B-Chat"
     )
     tokenizer = AutoTokenizer.from_pretrained(
-        "model/Baichuan2-13B-Chat",
+        "./fine-tune/baichuan-inc/Baichuan2-7B-Chat",
         use_fast=False,
         trust_remote_code=True
     )
+    # tokenizer = AutoTokenizer.from_pretrained("./fine-tune/output_7B_CHAT_8epochs", use_fast=False, trust_remote_code=True)
     return model, tokenizer
 
 
@@ -40,7 +42,7 @@ def clear_chat_history():
 
 def init_chat_history():
     with st.chat_message("assistant", avatar='🤖'):
-        st.markdown("您好，我是百川大模型，很高兴为您服务🥰")
+        st.markdown("您好，我是百川-Track大模型，很高兴为您服务🥰")
 
     if "messages" in st.session_state:
         for message in st.session_state.messages:
