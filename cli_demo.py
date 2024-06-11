@@ -11,16 +11,16 @@ from transformers.generation.utils import GenerationConfig
 def init_model():
     print("init model ...")
     model = AutoModelForCausalLM.from_pretrained(
-        "baichuan-inc/Baichuan2-13B-Chat",
+        "./fine-tune/baichuan-inc/Baichuan2-7B-Chat",
         torch_dtype=torch.float16,
         device_map="auto",
         trust_remote_code=True
     )
     model.generation_config = GenerationConfig.from_pretrained(
-        "baichuan-inc/Baichuan2-13B-Chat"
+        "./fine-tune/baichuan-inc/Baichuan2-7B-Chat"
     )
     tokenizer = AutoTokenizer.from_pretrained(
-        "baichuan-inc/Baichuan2-13B-Chat",
+        "./fine-tune/baichuan-inc/Baichuan2-7B-Chat",
         use_fast=False,
         trust_remote_code=True
     )
@@ -32,7 +32,7 @@ def clear_screen():
         os.system("cls")
     else:
         os.system("clear")
-    print(Fore.YELLOW + Style.BRIGHT + "欢迎使用百川大模型，输入进行对话，vim 多行输入，clear 清空历史，CTRL+C 中断生成，stream 开关流式生成，exit 结束。")
+    print(Fore.YELLOW + Style.BRIGHT + "欢迎使用百川-Track大模型，输入进行对话，vim 多行输入，clear 清空历史，CTRL+C 中断生成，stream 开关流式生成，exit 结束。")
     return []
 
 
